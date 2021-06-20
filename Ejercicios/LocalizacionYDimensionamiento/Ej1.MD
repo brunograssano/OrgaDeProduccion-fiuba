@@ -27,7 +27,7 @@ mediante el método de Mauro.
 | Ayudas gubernamentales                      |0,12         | 7        | 0,84 | 6      | 0.72|
 | Inestabilidad política, social y económica  |0,15         | 8        | 1,2  | 5      | 0.75|
 | Servicios e infraestructura                 |0,16         | 7        | 1,12 | 5      | 0,8 |
-| Reglamentación medioambiental               |0,12         | 4        | 0,84 | 6      | 0.72|
-| Total                                       |             |          | 7,35 |        | 6,59|
+| Reglamentación medioambiental               |0,12         | 4        | 0,48 | 6      | 0.72|
+| Total                                       |             |          | 6,99 |        | 5,79|
 
-* No es concluyente el análisis, ya que no se tiene una ventaja de por lo menos el 15%. Se debe de realizar un análisis mas fino.
+* Se elige España (diferencia de mas del 15% con China)
