@@ -1,0 +1,1624 @@
+\documentclass[titlepage,a4paper]{article}
+
+\usepackage{a4wide}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue,bookmarksopen=true]{hyperref}
+\usepackage{bookmark}
+\usepackage{fancyhdr}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{float}
+
+\pagestyle{fancy} % Encabezado y pie de página
+\fancyhf{}
+\fancyhead[L]{Apuntes de estructuras y procesos organizacionales}
+\fancyhead[R]{1C2021}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyfoot[C]{\thepage}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\usepackage[table,xcdraw]{xcolor} % colores tablas
+
+
+
+\begin{document}
+\begin{titlepage} % Carátula
+	\hfill\includegraphics[width=6cm]{logofiuba.jpg}
+    \centering
+    \vfill
+    \Huge \textbf{Apuntes de estructuras y procesos organizacionales}
+    \vskip2cm
+    \Large [9139] Estructuras y procesos organizacionales\\
+    1C 2021
+    \vfill
+    \begin{tabular}{ | l | } % Datos del alumno
+      \hline
+      Grassano, Bruno \\ \hline
+      bgrassano@fi.uba.ar \\ \hline
+  	\end{tabular}
+    \vfill
+    \vfill
+\end{titlepage}
+
+\tableofcontents % Índice general
+
+\newpage
+
+\section{Introducción}\label{sec:intro}
+El presente archivo contiene los apuntes que fueron tomados a lo largo de la cursada de la materia estructuras y procesos organizacionales (9139). Estos apuntes surgen de la bibliografía otorgada por la materia y anotaciones de clase. 
+
+\section*{Primera clase}
+
+%empresa manejable (pequeño) ej. fabrica de mermeladas, impresiones 3d
+%cual es el capital en juego, como es la mano de obra
+
+%ej fabricar mermeladas, vision: ser el lider en 5 años, propuesta de valor, que es lo que ofrezco, posicionamiento: ser el que venda las mermeladas mas exoticas - ir golpeando puerta por puerta que mermelada le gustaria recibir -> definir proceso: como se fabrica (mas complejo en servicios) -> valor y posicionamiento
+
+%desarrollar indicadores para saber si el negocio esta funcionando.
+
+%evaluacion: parcial (60% resuelto) entra la guia, ejs similares - presentacion del tp de empresa - de concepto (participacion +-) - coloquio final (nos dan un tema y es presentarlo con el grupo) (informe gerencial - sintesis del proyecto)
+
+% objetivo entender como se piensan las organizaciones
+
+
+\section{¿Que es una organización?}
+\begin{itemize}
+    \item Buscan evitar el caos
+    \item Reúnen un objetivo común
+    \item busca la efectividad
+    \item El esfuerzo grupal es mejor que el individual
+\end{itemize}
+
+Estas van teniendo varios cambios, dependiendo del momento histórico, de la metodología, de las diferencias culturales, de la evolución del enfoque que se le de, y de las aplicaciones a nuestra realidad nacional.
+
+\subsection{Evolución histórica}
+Las organizaciones fueron evolucionando hacia el trabajo/tiempo, que las organizaciones ganen mas dinero y sean sustentables (continuas en el tiempo). De forma tal de que manejen la incertidumbre, y se tenga una política de trabajo que involucre a todos, haciendo que la persona se sienta participe del sistema.
+
+Desde la aparición de la moneda, y como consecuencia la valorización de todos los bienes y servicios en términos monetarios, el éxito o fracaso de una gestión empresaria se mide en dinero.
+
+\begin{enumerate}
+    \item Artesanado, el individuo era artífice de todas las etapas de un producto, desde su concepción hasta su finalización y posterior entrega al sistema comercial. El trabajo de esta manera era visto no solo como supervivencia, si no también como realización personal.
+    \item Manufacturas medievales
+    \item Manufactura 1ra revolución industrial: 1750-1800, mecanización, la división del trabajo, estandarización
+    \item Manufactura 2da revolución industrial: 1900-1920, lineas de montaje, programar actividades
+    \item Manufactura taylorfordista: planificación
+    \item Manufactura de la expansión posterior a la segunda guerra mundial: 1940-1970,  Maslow y la pirámide,
+    \item Crisis industrial de los 70s
+    \item Manufactura post-taylorfordista: 1970-2000, técnicas japonesas
+\end{enumerate}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imagenes/EvolucionHistorica.PNG}
+    \caption{Evolución histórica}
+\end{figure}
+
+\subsection{Lineas de pensamiento}
+\subsubsection*{Escuela Clásica}
+Las primeras teorías comprensivas de la administración aparecieron en 1920. Henri Fayol es reconocido como el fundador, fue el primero en sistematizar el comportamiento gerencia. Establecio 14 principios en su libro \textit{Adminsitracion Industrial y General}.
+
+La preocupación básica de esta corriente era aumentar la eficiencia de la empresa, a través de la forma y disposición de los órganos componentes de la organización (departamentos) y de sus interrelaciones estructurales. De arriba hacia abajo. (de la dirección hacia la ejecución) (de la organización a los departamentos)
+
+Fayol parte de la proposición de que toda empresa puede ser dividida en seis grupos.
+\begin{enumerate}
+    \item Funciones técnicas, relacionadas con la producción de bienes o servicios de la empresa. 
+    \item Funciones comerciales, relacionadas con la compra, venta e intercambio
+    \item Funciones financieras, relacionadas con la búsqueda y gerencia de capitales
+    \item Funciones de seguridad, relacionadas con la protección de los bienes y de las personas. 
+    \item Funciones contables, relacionadas con los inventarios, registros, balances, costos y estadísticas
+    \item Funciones administrativas: coordinan y sincronizan las demás funciones de la empresa, por encima de ellas
+\end{enumerate}
+
+Según Fayol la capacidad principal de un operario es la capacidad técnica en tanto que la capacidad principal del director es la capacidad administrativa, es decir, cuanto más elevado el nivel jerárquico del director, más domina esta capacidad. Por tanto, a medida que se sube en la escala jerárquica la importancia relativa de la capacidad administrativa aumenta, mientras que la de la capacidad técnica disminuye
+ 
+\subsubsection*{Escuela de la administracion cientifica}
+Empezó con Frederick Winslow Taylor en 1878. Antes de las propuestas de Taylor, los obreros eran responsables de planear y ejecutar sus labores. Se les daba la producción, y se les daba la libertad de realizar sus tareas de la forma que ellos creían era la correcta.
+
+Según su teoría los administradores tienen las siguientes responsabilidades.
+\begin{enumerate}
+    \item Elaboran una ciencia para la ejecución de cada una de las operaciones del trabajo, la cual sustituye al viejo modelo empírico.
+    \item Seleccionan científicamente a los trabajadores, los adiestran, les enseñan y los forman, mientras que en el pasado cada trabajador elegía su propio trabajo y aprendía por sí mismo como mejor podía
+    \item Colaboran cordialmente con los trabajadores para asegurarse de que el trabajo se realiza de acuerdo con los principios de la ciencia que se ha elaborado 
+    \item El trabajo y la responsabilidad se reparten casi por igual entre el management y los obreros. El management toma bajo su responsabilidad todo aquel trabajo para el que está más capacitado que los obreros, mientras que, en el pasado, casi todo el trabajo y la mayor parte de la responsabilidad se echaban sobre las espaldas de los trabajadores
+\end{enumerate}
+
+El deseo de Taylor, iba en la dirección de conseguir la máxima prosperidad del empresario. Algunos de los argumentos de Taylor para la aplicación de sus propuestas: Para él, el hombre es, por naturaleza, perezoso e intenta escudarse en ello para realizar lentamente su trabajo haciendo creer al empresario que está dando lo mejor de sí. De ahí que se deben medir los tiempos y los movimientos de estos trabajadores para estudiarlos y encontrar la mejor combinación de movimientos musculares para elevar la producción y, también, dar uniformidad a los procesos, lo que no ocurría en el antiguo sistema. Para ello era necesario dividir entre quienes piensan las mejores maneras de hacer el trabajo y quienes tienen las fortalezas físicas para ejecutarlo, a los primeros se les daba la responsabilidad de adiestrar a los segundos hasta obtener de ellos el mayor rendimiento que su cuerpo pudiera dar. También habla de la especialización de tareas, pues de esta manera, el trabajador gana más tiempo y destreza haciendo lo mismo todos los días.
+
+\subsubsection*{Escuela burocrática}
+establecida por Max Weber, consideraba que la organización ideal era una burocracia con actividades y objetivos establecidos mediante un razonamiento profundo y con una división de trabajo detallada explícitamente.
+
+Se piensa que las burocracias son organizaciones vastas e impersonales, que conceden más importancia a la eficiencia impersonal que a las necesidades humanas. Weber como todos los teóricos de la administración científica, pretendía mejorar los resultados de organizaciones importantes para la sociedad, haciendo que sus operaciones fueran predecibles y productivas. Si bien ahora concedemos tanto valor a las innovaciones y la flexibilidad como a eficiencia y la susceptibilidad al pronóstico, el modelo de la administración de burocracias de Weber se adelantó, claramente, a las corporaciones gigantescas como Ford.
+
+\subsubsection*{Escuela de relaciones humanas}
+Esta escuela surgió debido a que el enfoque clásico no lograba suficiente eficiencia productiva ni armonía en el centro de trabajo. Mayo junto a algunos investigadores realizaron estudios en Hawthorne (fabrica de Western Electric).
+
+Mayo era de la opinión que el concepto del hombre social (movido por necesidades sociales, deseoso de relaciones gratificantes en el trabajo y más sensible a las presiones del grupo de trabajo que al control administrativo) era complemento necesario del viejo concepto del hombre racional, movido por sus necesidades económicas personales. 
+
+Al poner de relieve las necesidades sociales, el movimiento de relaciones humanas mejoró la perspectiva clásica que consideraba la productividad casi exclusivamente como un problema de ingeniería. Además, estos investigadores recalcaron la importancia del estilo del gerente y con ello revolucionaron la formación de los administradores. La atención fue centrándose cada vez más en enseñar las destrezas administrativas, en oposición a las habilidades técnicas. Por último, su trabajo hizo renacer el interés por la dinámica de grupos. Los administradores empezaron a pensar en función de los procesos y premios del grupo para complementar su enfoque anterior en el individuo.
+
+\subsubsection*{Escuela psicológica}
+Maslow, McGregor, y Herzberg escribieron sobre la superación personal de los individuos. Esto genero nuevos conceptos de ordenar las relaciones para beneficio de las organizaciones. Además, determinaron que las personan pretendían algo mas que recompensas o placer al instante.
+
+Según Maslow, las necesidades a satisfacer tienen forma de pirámide. Lo material y de seguridad en la base, y las necesidades del ego y auto realización en la cúspide.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imagenes/Maslows-pyramid.jpg}
+    \caption{Piramide de Maslow}
+\end{figure}
+
+\subsubsection*{Escuela de ciencias de la administración}
+La teoría moderna de la administración esta compuesta por elementos de muchas teorías anteriores. Se pueden identificar tres perspectivas, el sistémico, el de contingencias, y el del compromiso dinámico.
+
+El sistémico sostiene que la organización es un sistema abierto, unido y dirigido, de partes interrelacionadas, a lo largo del tiempo. Difiere del taylorismo y fayolismo en que estos consideran a la organización exclusivamente en forma interna, aislada de las influencias mutuas con el entorno económico, social y político. El enfoque sistémico, en lugar de abordar los diversos segmentos de una organización por separado, piensa que la organización es un sistema abierto único que tiene un propósito determinado, sus partes o elementos se interrelacionan y está delineado por los límites identificables de su ambiente o suprasistema. La actividad de un segmento de la organización afecta, en diferentes grados, la actividad de todos sus otros segmentos. 
+
+Los gerentes no pueden funcionar plenamente dentro de los límites funcionales del organigrama tradicional, sino que deben cruzar transversalmente su departamento con toda la empresa. Dentro del sistema, la calidad de las interrelaciones llega a ser más importante que los elementos. El desempeño global de todo el sistema depende de cómo interactúan sus partes esenciales
+
+El enfoque de contingencias o situacional se basa en que no existe una única y mejor forma o modelo organizacional apropiado a todas las circunstancias. Lo que existe es una variedad de alternativas de métodos o técnicas proporcionadas por las diversas teorías administrativas, dependiendo del contexto externo e interno en el que se mueve la organización, una de las cuales podría ser la más apropiada para una situación determinada.
+
+La tarea del gerente consiste en identificar la mejor técnica para alcanzar las metas de la gerencia, en una situación concreta, en circunstancias concretas y en un momento concreto. Es la identificación de las “contingencias” que producen mayor impacto sobre la organización. Estos factores determinantes son: la tecnología, la tasa de cambio e incertidumbre del entorno, el tamaño y la estrategia. 
+
+El enfoque del compromiso dinámico dice que las relaciones humanas complejas y los tiempos vertiginosos que se viven, obligan a los gerentes a reconsiderar los enfoques tradicionales debido a la velocidad y constancia de los cambios. 
+
+El proceso de decisión permite elegir las alternativas que se consideran medios adecuados para alcanzar un fin. Este fin a su vez será el medio para alcanzar un fin más alejado. La racionalidad consiste en la elaboración de cadenas “medios-fines”, de tal forma de anticipar situaciones
+
+\subsubsection*{Managment moderno}
+Se considera a Peter Drucker como el padre del managment moderno. Ha observado a la ciencia del management bajo una perspectiva sistémica y con una atinada visión de la condición humana. Se destaca en su obra el enfoque metodológico del proceso de toma de decisiones en equipo y las reflexiones acerca del rol de la gerencia. La buena gestión de la gerencia es determinante en el destino de una empresa, sea cual sea su tamaño, ya que convierte un grupo de personas en una organización y los esfuerzos humanos en desempeño. La gerencia como proceso consiste en anticipar situaciones y tomar decisiones. 
+
+Drucker apoyó la habilitación y responsabilidad del empleado y mostró una visión del empleado como un recurso y no como un costo. Además de sus aportes metodológicos al estudio del proceso decisorio, fue el creador de la técnica gerencial del “management por objetivos”. 
+
+El management consiste en definir la misión y los objetivos de la empresa, y en organizar los recursos y motivar las energías humanas, a fin de cumplirlos.
+
+
+
+
+\section*{Segunda clase}
+\section{Planeamiento estratégico}
+La toma de decisiones, involucra todos los plazos. Esto responde a:
+\begin{enumerate}
+    \item Examen de la problemática, es un análisis estratégico y la identificación de cuestiones clave.
+    \item Desarrollo de cursos de acción, definiciones estratégicas, la misión, visión, valores, objetivos, y estrategias
+    \item Plan de implementación, estructura de la organización, la asignación de responsabilidades, equipo de proyecto de implementación de la estrategia.
+\end{enumerate}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imagenes/DireccionEstrategica.PNG}
+    \caption{Sistema de Dirección Estratégica}
+\end{figure}
+
+\subsection{El negocio}
+Un negocio no se puede definir ni explicar en términos de ganancias. La teoría económica de “extremar las ganancias”, que es simplemente una forma complicada de decir la vieja frase de “comprar barato y vender caro” puede explicar cómo operaba una empresa. Esto no significa que las ganancias y el lucro no sean importantes, significa que el lucro no es el fin de la empresa, sino por el contrario un factor que las limita. 
+El problema de todo negocio no es la obtención de ganancias extremas sino de ganancias suficientes para cubrir los riesgos de la actividad económica y evitar pérdidas. 
+
+\subsection{Planeamiento corporativo o político}
+\begin{itemize}
+    \item ¿En que industria queremos estar? Esta es la misión, es la razón de ser de la organización, la cual limita la estrategia. Tiene un fin \textbf{atemporal} y no medible. El cliente es el que define a la empresa, el mercado, esto puede ser creado por el marketing también (creando una necesidad). Esto es definido por la mas alta gerencia, una decisión corporativa. La verdadera misión debe ser crear valor para clientes, empleados, y accionistas.
+    
+    \item ¿Cuales son nuestras creencias? Son los valores, estos son el subsistema de creencias de la empresa. Hay que adoptar un enfoque global. Definen la identidad y conducta de las personas que integran la empresa. Estos no son creados, son descubiertos. Los valores no son necesariamente positivos. Toda empresa tiene un marco en la cual actúa, unos limites auto impuestos, si se sale de los mismos o no. Suena a verso, pero no, no es poner carteles de trabajo en equipo, etc. \textit{Ej. El que pague todo en blanco, altamente probable que cobre en blanco. el que pague la mitad en negro, probablemente cobre en negro una parte también - Otro ej, riesgo mitad de la facturación, opción de comprar producto alternativo para salvar la facturación. Este producto alternativo estaba fabricado con trabajo infantil, ¿se compra o no? Ahí se ponen en juego los valores}. La empresa no puede ni debe cambiarlos. Son cualitativos y no cuantitativos.
+    
+    \item ¿Como nos hemos de comportar? Son las políticas, la forma de comportamiento que plantea la empresa hacia adentro y hacia afuera. Son pautas de comportamiento que sustentan la competencia distintiva y el sistema de valores, son una guía para la toma de decisiones ante ciertas alternativas. 
+\end{itemize}
+
+De esto se encargan los accionistas o la mas alta dirección.
+
+\subsection{La visión}
+Es la imagen deseada de la empresa en el futuro. Para definir una visión, esta tiene que ser desafiante y creíble, proporcionar un rumbo. Tiene que ser compartida por todos los miembros de la empresa (importante), todos tienen que saber para que lado vamos, permite poder tomar pequeñas decisiones que ayuden en el camino. Tiene que ser medible. \textit{Ej. Ser líder del mercado, market share, ¿como lo medimos?}. Determina el largo de los plazos también. \textit{Ej. Minera largo plazo 20+ años, software 1 a 5 años.}
+
+Responsabilidad de la alta dirección.
+
+La visión debe incluir a todos los miembros de la organización, o sea que debe ser compartida. La visión compartida crea un lazo entre personas, proporciona una sensación de propósito y coherencia en todas las actividades que desarrolla la organización. La eficacia de la visión dependerá de que todos los miembros de la organización participen conjuntamente en su creación. 
+
+\subsection{Pestelco}
+Las empresas son sistemas abiertos que co-evolucionan con el entorno. Hay herramientas que permiten diagnosticar, una de ellas es Pestelco. Son 7 vectores fuerzas motores de cambio del entorno. No es una imagen actual, son vectores que permiten imaginar a futuro, hacia donde imaginamos que se mueve la economía, sociedad, política, etc. A futuro, ¿hacia donde va cada variable?
+
+\begin{itemize}
+    \item[P] Político
+    \item[E] Económico
+    \item[S] Social
+    \item[T] Tecnológico
+    \item[E] Ecológico
+    \item[L] Legal
+    \item[Co] Comunicaciones
+\end{itemize}
+
+Estos son factores críticos de éxito.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imagenes/PestelAnalisis.png}
+    \caption{Análisis Pestel, el Co no esta en la imagen}
+\end{figure}
+
+\subsection{Dimensiones del negocio}
+El negocio es una función que tiene 3 dimensiones. Por un lado la necesidad a satisfacer (demanda) (\textit{Ej. alimentar de forma saludable}), por otro el conjunto de clientes (¿Quienes?), y las alternativas tecnológicas (¿Como?).
+
+El vector demanda del cliente se orienta a conocer al cliente e identificar todas aquellas necesidades del mismo, realizando un análisis de valor. Las características y el desempeño que pretenden obtener.
+
+El vector del conjunto de clientes se orienta a saber quienes van a ser atendidos. Como pueden agruparse los potenciales clientes, diferenciados según las necesidades o expectativas.
+
+El vector de las alternativas tecnológicas se basa en pensar que conocimientos incorporar a la empresa y por que deben incorporarse. es el conjunto de recursos y actividades que hacen posible la obtención de aquellos bienes y servicios que tienen valor para el cliente.
+
+\subsection{Planeamiento Estratégico Iterativo }
+Crear un futuro deseado es distinto a prepararse para un futuro diagnosticado. Los grandes negocios piensan muchísimo mas afuera que el resto. \textit{Ej. Bill Gates es una persona que crea futuro.} Tiene como misión crear el futuro deseado para la organización y no de prepararla para un futuro pronosticado. Partiendo de la misión y la definición del negocio, se inicia con el diagnostico \textit{(ej. FODA)} el cual sitúa a la empresa en su entorno y nos brinda una idea cercana a la realidad sobre la capacidad de la empresa de generar valor. Luego, diseña la estrategia y su posicionamiento competitivo a futuro. Después se puede definir la visión o estado futuro anhelado. por ultimo, elabora el plan estratégico para lograrlo.
+
+    \smallskip
+
+Estrategia: es un conjunto integrado de acciones para lograr una ventaja competitiva en la adaptación al entorno. Es buscar un lugar distinto para dar valor, no es hacer lo mismo pero mejor. Hacer algo diferente.
+
+    \smallskip
+
+Planeamiento estratégico: es la fijación de objetivos y plan de acción para alcanzarlos. Manejar la incertidumbre. Muy poca gente puede hacerlo, ya que requiere mirar y tomar decisiones muy a futuro. A medida que baja la pirámide se reduce la incertidumbre, ya que las decisiones estan muy en el dia a dia.
+
+    \smallskip
+
+Proceso innovador: es encontrar oportunidades en función de nuevos paradigmas.
+
+\subsection{5 fuerzas de Porter}
+Un análisis que me permite ver si una industria es rentable o no. Se analiza como es la relación entre el tipo de industria \textit{vs} los otros actores que puedan aparecer en el entorno, la competencia, los proveedores, los productos substitutos, o la amenaza de nuevos competidores. 
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{imagenes/5FuerzasPorter.png}
+    \caption{Análisis de 5 fuerzas de Porter}
+\end{figure}
+
+\newpage 
+
+\subsection{Diagnostico estratégico: FODA}
+Me permite analizar como soy yo compitiendo. (Mi empresa en particular) Hago 2 tipos de análisis, uno interno y otro externo.
+
+\begin{itemize}
+    \item[Fortalezas] Análisis interno, capacidades, algo que yo tengo positivo, y no lo tienen mis competidores. 
+    \item[Oportunidades] Análisis externo, entorno, junto a mis competidores miramos que oportunidades hay para todos. \textit{Ej. fabricantes de ropa, empieza la pandemia, fabricar barbijos, es una oportunidad para todos.}
+    \item[Debilidades] Análisis interno, capacidades, si todos somos malos no es debilidad, es debilidad cuando te diferencia de la competencia.
+    \item[Amenazas] Análisis externo, entorno, mirando junto a mis competidores las amenazas para todos. Un competidor no es una amenaza, ej. tengo un bar, una amenaza es la pandemia, afecta a todos.
+\end{itemize}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imagenes/Analisis-Foda.jpg}
+    \caption{Análisis FODA}
+\end{figure}
+
+\newpage 
+
+\subsection{Cadena de valor}
+Todas aquellas actividades en las cuales la organización tiene posibilidad de agregar valor por un lado, y por el otro todas aquellas en las que puedo reducir costo. Planteado por Porter también.
+
+La cadena de valor es esencialmente una forma de análisis de la actividad empresarial mediante la cual descomponemos una empresa en sus partes constitutivas, buscando identificar fuentes de ventaja competitiva en aquellas actividades generadoras de valor. Cada proceso y cada actividad tienen que aportar valor. Tener en cuenta que una empresa forma parte de una cadena de valor más grande, que incluye a sus clientes y proveedores. 
+ 
+Esa ventaja competitiva se logra cuando la empresa desarrolla e integra las actividades de su cadena de valor de forma menos costosa y mejor diferenciada que sus rivales. 
+
+El Margen es la diferencia entre el valor total y el costo colectivo de desempeñar las actividades de valor.
+
+La cadena de valor de una empresa está representada gráficamente por un polinomio, que gráfica las actividades de manera independiente. En la realidad estas actividades no son independientes, ya que interactúan con otras «cadenas de valor» (clientes y proveedores). 
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imagenes/CadenaDeValor.PNG}
+    \caption{Cadena de valor de Porter}
+\end{figure}
+
+
+\subsection{Posicionamiento competitivo}
+Tres formas de enfrentar el mercado. Vender al mejor precio, necesito el mejor esquema de costos. El que tiene el liderazgo en diferenciación que siempre busca ofrecer un valor único y especial para los clientes. Y el de intimidad con el cliente, aquella empresa que trabaja para satisfacer las necesidades puntuales del cliente de turno.\textit{Ej. software, consultoría, sastrería}
+
+
+\subsection{Propuesta de valor}
+
+Resulta de dos maniobras estratégicas, la segmentación y la diferenciación. Busca encontrar un espacio vacío en la mente del cliente, llenándolo antes que lo haga la competencia.
+
+Diferenciación: es la promesa que una empresa realiza a sus clientes de entregarles una combinación única de valores (precio, calidad, singularidad, beneficio total, imagen, etc) y que logra convencerlos de elegirla frente a la oferta de la competencia.
+
+El modelo de las 4 P: Precio, Plaza, Producto, Promoción.
+
+Es lo que llega a ver el cliente.
+
+\subsection{Conjunto de actividades}
+Es todo lo otro que tuvo que hacer la empresa que posibilita que la propuesta de valor exista. Esto no lo ve el cliente.
+
+
+% La vision va cambiando, la mision es dificil que cambie, ya que identifica a la empresa. 
+% La mision es un marco de referencia que mientras esta vigente nos ayuda a tomar decisiones. Le pone un limite a los tiros inutiles, a lo que diverge de la actividad. (Desperdicio de recursos)
+% Cuando es mas clara la vision es mas claro donde pongo el recurso a trabajar.
+
+
+
+\section*{Tercera clase}
+
+\section{Inversión}
+Es una inmovilización o afectación de recursos en un proyecto indeterminado. Relación gasto, tiempo. El tiempo vale mucho mas.
+
+Las inversiones se pueden clasificar en independientes o dependientes. Las dependientes pueden ser complementarias, sustitutivas (Ej en vez de vainilla hago melbas), de pre-requisito (algo para poder realizar otra inversión), o mutuamente excluyentes.
+
+\section{Dimensionamiento y localización}
+
+
+\subsection{Localización}
+Las decisiones se toman por un objetivo determinado. Pero muchas veces, en realidad en la mayoría de los casos, las decisiones se toman para lograr más de un objetivo. La decisión más adecuada, por ende, es la que satisface, de la mejor manera posible, los objetivos que nos proponemos alcanzar con ella. Solemos decir que los optimiza.
+
+\subsubsection*{Método De Mauro}
+\begin{enumerate}
+    \item Definir los objetivos y ponderarlos: asignarle un valor a los objetivos de acuerdo a la importancia de cada uno. Hay que tener en cuenta los intereses de quien tomara la decisión. (del 1 al 10)
+    \item Explicitar las alternativas y clasificarlas: Se descartan aquellas que no cumplan con alguno de los objetivos propuestos. Esto consiste en valorar el grado de satisfacción que cada alternativa brinda a mis objetivos.
+    \item Calificación ponderada: Se realiza multiplicando la ponderación efectuada por la calificación asignada.
+    \item Resultado: Simplemente se suman las calificaciones ponderadas correspondientes a cada alternativa.
+    \item Interpretación del resultado: Se dicen que son concluyentes cuando una tiene mas del 15\% de ventaja sobre el resto. Significa que es la que mejor satisface los objetivos. propuestos. El otro resultado puede ser no concluyente, indica que se requiere un estudio mas fino, buscar algo mas para desempatar.
+\end{enumerate}
+
+\begin{table}[!htb]
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{2}{|c|}{Objetivos} & \multicolumn{6}{c|}{Alternativas}                                                                            \\ \hline
+Enunciado      & Ponderación    & \multicolumn{2}{r|}{Alternativa 1} & \multicolumn{2}{r|}{Alternativa 2} & \multicolumn{2}{r|}{Alternativa 3} \\ \hline
+Objetivo 1     &                & \multicolumn{1}{r|}{}      &       &                  &                 &                  &                 \\ \hline
+Objetivo 2     &                &                            &       &                  &                 &                  &                 \\ \hline
+Objetivo 3     &                &                            &       &                  &                 &                  &                 \\ \hline
+\multicolumn{2}{|l|}{Total}     &                            &       &                  &                 &                  &                 \\ \hline
+\end{tabular}
+\end{table}
+
+Ejemplos de objetivos, precio del lugar, cercanía con recursos, transporte...
+Las alternativas son con respecto al lugar, instalarse en CABA, La Rioja, Neuquen...
+La ponderación indica que tan importante es, después es clasificar a las alternativas.
+
+En la segunda columna de las alternativas se multiplica la ponderacion por el valor asignado. Se compara la sumatoria del total, quedandome con la mas alta.
+
+
+Al aplicar el método hay que tener algunas precauciones. La virtud de este método es la objetividad que brinda a la hora de tomar una decisión, dejando de lado
+consideraciones de tipo personal. 
+\begin{itemize}
+    \item Usar igual escala de ponderación para todos los objetivos.
+    \item Usar igual escala de calificación para todas las alternativas.
+    \item Tener cuidado cuando las escalas son inversas a los datos. \textit{Ej. Mayor precio, menor valor}
+    \item Desechar las alternativas que no cumplen con al menos uno de los objetivos.
+    \item Si se esta en grupo es conveniente aplicarlo con representantes del mismo.
+\end{itemize}
+
+\subsection{Dimensionamiento físico}
+
+Es necesario conocer el proceso, para saber que maquinas necesito, el espacio que voy a necesitar, y después poder comprarlas.
+
+El dimensionamiento físico es también una arquitectura cuyo diseño no tiene una sola forma, hay infinitas soluciones posibles. Nuestro objetivo como ingenieros es diseñar un establecimiento industrial exitoso. Esto se logra a través de una alta rentabilidad.
+
+\medskip
+
+\begin{math}
+Rentabilidad = \frac{Beneficios}{Inversion} = \frac{N \cdot (p - c)}{Inversion}
+\end{math}
+\medskip
+
+Donde N son las ventas, p los precios de venta, y c los costos.
+
+Se entiende por Dimensión Física de un establecimiento industrial, además de sus superficies cubierta, semi cubierta y descubierta, al conjunto de requerimientos (input) y productos (output) de las distintas áreas del establecimiento en estudio
+
+\subsubsection*{Distribución en oficinas}
+Un dato importante es la superficie promedio que se asigna por persona. En general debería ser 9m2, incluyendo pasillos, y se pueden considerar espacios diferenciados para personal jerárquico o salas de reuniones. La tendencia actual es la de grandes oficinas con mamparas de división bajas, en algunos casos incluso sin ellas. Algunas empresas tienen escritorios compartidos por distintas personas cuyos horarios de trabajo no se superponen.
+
+\subsubsection*{Distribución en negocios}
+Esta distribución está regida por varios conceptos: sólo se vende lo que se expone, ubicar los artículos de alta rotación en la periferia del local, definir áreas más visibles para productos que se quieren promocionar, destacar lugares específicos de acuerdo a la política de ventas, diseño atractivo y condiciones ambientales y climáticas controladas.
+
+\subsubsection*{Distribución en almacenes}
+Constituye un costo significativo en la empresa el almacenamiento y movimiento de materiales, además del cuidado de los artículos frente a pérdidas y deterioro.
+
+\subsubsection*{Distribución en industrias}
+Para este caso, hay que entender muy bien el proceso de fabricación, la ubicación de las materias primas, mano de obra y servicios, además de como es la salida del producto terminado y de los subproductos que genera la empresa.
+
+Después hay que tener en cuenta la disposición en planta, por producto, proceso, posición fija (Ej. construcción de un barco, esta fijo y le llegan las partes) o en forma de células.
+
+También la ubicación relativa de las secciones internas. Se puede realizar mediante la utilización de diagramas y esquemas, con los cuales podemos entender la conveniencia de ubicación de distintas áreas intervinientes en el proceso.
+
+Para el calculo teórico de superficie, se vuelca toda la información relacionada en tablas. No hay que tener en cuenta solo lo correspondiente a maquinas, si no también a insumos, movimiento de materiales, productos y personas.
+
+Luego de tener los cálculos necesarios, se realiza el layout para poder ubicar con precisión cada maquina en su lugar. Incluye la alimentación de energía, servicios, flujo de materias primas, semi-elaborados y productos terminados. Como voy a disponer las cosas en ese espacio.
+
+
+Algo útil para definir la distribución de las áreas, es un diagrama De-Hasta. Es para definir cuanto me muevo de un sector a otro. (Ing. Industrial)
+
+Diagrama cruzado, indica que sectores es conveniente que estén cerca, o separados. Ej. Cocina de la heladera, cocina de la mesada.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{imagenes/DistribucionOficinas.PNG}
+\end{figure}
+
+\newpage
+
+\subsection{Dimensionamiento económico}
+Es la determinación del capital total necesario para poner en funcionamiento una inversión.
+
+El capital total necesario (CTN) nos sirve para calcular los recursos económicos necesario y la rentabilidad de la nueva inversión.
+
+\begin{math}
+CTN = CapitalFijo + CapitalRecurrente + CapitalDePuestaEnMarcha
+\end{math}
+
+El capital fijo es el valor económico de los bienes materiales o inmateriales necesarios para el proyecto. estos se van consumiendo lentamente, son durables, y se desgastan o ponen obsoletos. En su mayoría se amortizan. \textit{Ej. Investigaciones y estudios, organización de la empresa, tierras y recursos naturales, maquinaria,...}
+
+El capital recurrente o circulante esta integrado por bienes que necesita la empresa para funcionar, y que se consumen con el primer uso. Son no durables y esta representado por el dinero invertido en los siguientes 4 rubros. Están en constante movimiento.
+\begin{itemize}
+    \item Stock de materias primas promedio. Es la cantidad de dinero necesario para disponer de stock de las materias primas. 
+        \begin{math}
+        CSMP = \sum Q_i \cdot C_i
+        \end{math}
+        
+        Qi= stock medio previsto de la materia prima i
+        Ci= costo unitario de la materia prima i
+    \item Materiales en fabricación
+        \begin{math}
+        CSME = \sum Q_i \cdot C_i
+        \end{math}
+        
+        Qi= stock medio previsto de productos en proceso de fabricación
+        Ci= es la semisuma entre el costo de la materia prima y el costo del producto terminado
+    \item Stock promedio de productos terminados
+        \begin{math}
+        CSMP = \sum Q_i \cdot C_i
+        \end{math}
+        Qi= stock medio de producto terminado i
+        Ci= costo integral del producto unitario i
+    \item Financiación de ventas. Es el capital necesario para financiar las ventas de la empresa.
+\end{itemize}
+
+\subsubsection*{Capital de puesta en marcha}
+Tiene en cuenta el dinero necesario para que un conjunto de edificios, maquinas y personas se conviertan en una unidad productiva eficiente. ES de una unica vez, todo lo que requeri para empezar a trabajar.
+
+La puesta en régimen es el costo de poner en marcha todas las máquinas, las ineficiencias del inicio de producción, costo de adiestramiento del equipo humano. La sumatoria de todas las anormalidades valorizadas económicamente constituyen el capital de puesta en régimen.
+
+\section*{Cuarta clase}
+
+\section{Diseño organizacional}
+
+Para la administración, una organización está diseñada a propósito para que un grupo humano desarrolle una tarea común, para el cumplimiento de determinados fines y pensada para que tenga cierta permanencia en el tiempo. La contribución social radica en la satisfacción de las necesidades, las cuales son un elemento de coordinación de esfuerzos y recursos.
+
+Cuando ya tenemos enunciada la visión de nuestra empresa, y para lograrla, diseñamos una estrategia, se puede decir que la organización es la materialización de la estrategia. Esto sucede identificando los procesos clave. Si bien afirmamos que la estructura depende de la estrategia, también sucede en muchos casos que la implementación de una estrategia se ve condicionada o demorada por la estructura. 
+
+Otro elemento que forma parte de cada organización es la cultura. Es la personalidad de la organización, la forma única y particular de llevar adelante el negocio.
+
+Los principios básicos de funcionamiento de las organizaciones son los siguientes:
+\begin{itemize}
+    \item División del trabajo: dividir la carga entera de trabajo en tareas a ejecutarse en forma especializada.
+    \item Departamentalizacion: agrupar las tareas de forma logica y eficiente.
+    \item Jerarquía: especificar el quien depende de quien, la longitud del plazo de cada linea. Directores al largo, gerentes al medio, primera al corto.
+    \item Coordinación del trabajo: establecer mecanismos para que integrar las actividades de las personas sea congruente. 
+\end{itemize}
+
+Las organizaciones no son sistemas naturales, sino creados por el hombre. La artificialidad es la condición propia de los sistemas complejos que operan en medios complejos. La Administración no se ocupa de cómo son las organizaciones sino de cómo deberían ser, buscan diseñarlas en función del logro de ciertos objetivos. Además de los recursos humanos, el diseño de la organización deberá tener en cuenta la tecnología disponible. Algunos requisitos que tienen son los siguientes.
+\begin{itemize}
+    \item Modificar algún elemento puede afectar el comportamiento del resto.
+    \item Al diseñar pueden existir metas, necesidades e interese en conflicto.
+    \item Ponderar los beneficios con los factores sociales en juego.
+    \item La organización esta en constante cambio para adaptarse al contexto.
+    \item Propiciar el aprendizaje organizacional como facilitador de nuevos desafíos.
+\end{itemize}
+
+\subsection{Elementos del diseño organizacional}
+\begin{itemize} %completar (agregar explicacion)
+    \item Estrategia
+    \item Estructura
+    \item Procesos
+    \item Gente
+    \item Tecnología
+\end{itemize}
+
+El proceso se inicia con las definiciones estratégicas (misión, visión, plan estratégico), y a medida que desciende por la estructura, y a través de los diferentes niveles, los objetivos se hacen más concretos, hasta llegar a la descripción de puestos de trabajo. Es importante destacar que estas etapas deben estar permanentemente retro alimentándose, de tal manera de lograr concordancia entre lo planeado y lo efectivamente posible.
+
+\subsection{Delegación}
+Es la descentralización de la toma de decisiones, esto es posible cuando los objetivos son claros y compartidos. Llegar a este punto no es un procesos sencillo, ya que puede ser costoso dejar una tarea en manos de alguien mas cuando se estaba a cargo de la misma. Además, el proceso de delegación requiere de una explicación detallada de la tarea, los recursos con que el colaborador contará para llevarla a cabo, y el resultado esperado de la misma.
+
+Delegar implica, entonces, tomar parte de la propia tarea y transferirla a un colaborador, haciendo un adecuado seguimiento y control, y brindando siempre una evaluación que le dé los elementos necesarios para su crecimiento laboral y profesional.
+
+La responsabilidad no se delega, porque es un estado de conciencia personal, el querer cumplir con esas tareas. La 'respondibilidad', tampoco, es la 'accountability', el rendir cuentas por el trabajo realizado, esto es medible, concreta. Ambas son intransferibles. Más allá de que el jefe haya decidido delegar parte de tu tarea a un subordinado, sigue siendo él quien debe rendir cuentas por los resultados.
+
+
+\subsection{Span de control}
+
+El tamaño de la unidad aumenta, entre otros factores, por la normalización y similitud de las tareas desempeñadas, por la necesidad de reducir distorsiones en el flujo de información ascendente y por las necesidades de autonomía y auto-realización de los empleados. El tamaño disminuye cuando existe necesidad de supervisión directa, de adaptación mutua en tareas interdependientes, de acceso frecuente al directivo para consultas, etc. Es razonable entonces pensar que para un área operativa se defina una unidad mayor que para los niveles directivos.
+
+El control no puede ser mas caro que lo que controlo.
+
+Es importante generar tareas que en si mismas incluyan el control. \textit{Ej. En determinado caso de software que se verifique, valide determinado caso.}
+
+\subsection{Organización formal e informal}
+La formal es el organigrama.
+
+Detrás del mismo hay personas, el informal, problemas que no están a la vista en descripciones de tareas, diagramas, afinidad entre personas,etc.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.7\textwidth]{imagenes/OrganizacionFormalInformal.PNG}
+    \caption{Contraste entre la organización formal e informal}
+\end{figure}
+
+
+\subsection{Grandes áreas}
+\begin{itemize}
+    \item Producción: Es el área donde se materializa el objeto del negocio, pudiendo ser un producto manufacturado, un desarrollo de software o un informe de consultoría.
+    \item Mantenimiento: Ya sea preventivo, predictivo o correctivo, el área se ocupa de mantener los procesos productivos en condiciones para que puedan llevar a cabo los procesos esperados
+    \item Calidad: Se aseguran de controlar que los productos o servicios elaborados cumplen con los requisitos de sus especificaciones, y además asegurar que los procesos sean los suficientemente robustos para producirlos regularmente.
+    \item Planificación: Es el área que traduce las necesidades de Ventas en dos tipos de planes: producción y abastecimiento. 
+    \item Marketing y ventas
+    \item Abastecimiento: Suele tratarse del área de compras, busca los proveedores de los insumos requeridos que cumplan de forma más eficaz con precio, calidad y entrega.
+    \item Finanzas: Maneja el registro contable de lo que ocurre en la empresa.
+    \item Recursos humanos: Se ocupa del reclutamiento y servicios del personal.
+    \item Relaciones publicas: Se ocupa de la comunicación puertas afuera de la empresa (al publico o otras empresas).
+    \item Investigación y desarrollo: Se vincula con el planeamiento estratégico, trabaja en los productos y servicios que se ofrecen al cliente.
+    \item Ingeniería: Es un área de empresas industriales, se puede encontrar dentro de las áreas de ingeniería de producto y proceso.
+    \item Sistemas:Se ocupa de las comunicaciones y las redes, software, telefonía, mesa de ayuda para la utilización de dispositivos o programas, seguridad informática, protocolos y procedimientos de los dominios de soft y hard.
+\end{itemize}
+
+\subsection{Evolución de las formas}
+\begin{itemize}
+    \item Organizaciones funcionales...
+    \item La descentralización consiste en armar diferentes unidades de negocio dentro de la misma empresa.
+    \item Organización matricial, reportan a mas de un lugar, de esta forma se logra un mayor control, uniformidad de procesos, y facilidad para implementar proyectos. La contrapartida es que se pierde la unidad de mando. \textit{Ej, Philips, unidad de producción - oficina reporta al gerente de Argentina y al Gerente de producción mundial.}
+    \item Redes, es la tercerearizacion de servicios que no eran del corazón del negocio, esto hizo que aparezcan las empresas logísticas. \textit{Ej. el envazadom, la liquidación de sueldos}
+    \item La flexibilidad se vuelve muy fuerte cuando esta enfocada fuertemente en la demanda.
+\end{itemize}
+
+El organigrama de Taylor, la parte de los departamentos que piensan, y la parte de los departamentos que hacen el producto. (Con los japoneses se da vuelta)
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imagenes/EvolucionFormas.PNG}
+    \caption{Evolucion de las formas}
+\end{figure}
+
+
+\subsection{Estructuras hoy en día}
+Las estructuras son mas planas, se vuelve a la época del artesanado, cuando el trabajo tenia sentido. Es decir, que puede tomar decisiones. pone en juego muchas mas habilidades de nuestra parte, se enriquece la tarea.
+
+
+\section*{Notas a parte}
+Después del proceso, tengo idea de que tipo de personas y cuantas necesito para mi empresa.
+
+Cuando hablamos de diseño de la organización lo asemejamos al cuerpo humano, pero cada una tiene una personalidad diferente, esto es lo que las diferencia.
+Planeamiento estratégico son las ideas.
+
+La estrategia define la estructura.
+
+En el caso de una estructura ya existente, para readaptarse, tienen que observar lo que ya tienen y ver como reusarlo. En el caso de maquinas es mas sencillo, pero para la estructura humana, el proceso de cambio es mas difícil. \textit{Ej. Una función de empresas, vienen de culturas distintas, y juntas tienen que sacar algo nuevo - Cuando una empresa compra una nueva - Cuando hay una tecnología nueva disponible.}
+
+Vertical se ve la jerarquía de autoridad, y en horizontal la división del trabajo, la especialización, coordinación.
+
+Agrupamiento por necesidades de los clientes, no se divide el organigrama por proceso, si no por demanda. \textit{Ej en los bancos, Banca de consumo, Banca institucional, Banca de inversiones} Es un punto de vista desde la demanda. Las claves son la conectividad y la colaboración.
+
+El agrupamiento geográfico por mercados, una parte para Europa, otro para América,.. Esto es desde el punto de vista de la demanda también. 
+
+\section*{Quinta clase}
+\section{Operaciones y procesos}
+Son estas tareas las que dan vida a la organización. Cuando una empresa compra, vende, paga, cobra o produce lo hace a partir de operaciones puntuales (también llamadas transacciones), las cuales se llevan a cabo precisamente por una serie de tareas realizadas por distintas personas.
+
+\textit{ Ej.
+Almacén informa que ciertos artículos quedaron bajo el punto de pedido a Compras, Compras busca
+proveedores posibles que abastezcan esos artículos y solicita cotización, cuando se reciben las
+cotizaciones pedidas Compras las evalúa y selecciona la más conveniente y confirma la compra, al
+cabo de un tiempo Recepción recibe el pedido y realiza un primer control cuantitativo sobre lo
+recibido, tal vez intervenga Control de Calidad verificando que los materiales adquiridos sean
+adecuados a lo que se necesita y en base a eso se decide si se acepta o se rechaza la compra; luego
+Almacén recibirá los artículos solicitados y los ingresará en el inventario y Contaduría realizará las
+registraciones contables de esa operación. Y luego de cierto tiempo, cuando Almacén detecta nuevos
+artículos bajo el punto de reposición, se da el puntapié inicial de una nueva operación de Compra
+}
+
+Este conjunto de tareas, operaciones, controles, procesamientos de información conforman un proceso.
+
+Cada uno de los procesos tendrá su “receta” detrás, como un algoritmo. Se harán de
+la misma forma cada vez. Con el tiempo, estos procesos se refinan y contemplan cada vez mayor
+cantidad de casos disminuyendo la cantidad de casos imprevistos y excepciones. Un proceso es un conjunto de tareas o de actividades organizadas secuencialmente.
+
+La ISO 9000 define un proceso como un conjunto de actividades interrelacionadas o interactivas que
+transforman entradas en salidas.
+
+\section{Tareas y procesos}
+
+En la variedad de procesos que se llevan a cabo en una organización hay distintos tipos de tareas. Se distinguen en el trabajo manual y el trabajo de oficina.
+
+Las tareas son distintas para ambos tipos de trabajo, los requerimientos de habilidades y
+conocimientos son distintos y también lo son los riesgos y la disciplina necesaria
+
+\section{Proceso, procedimiento, instrucción de trabajo}
+
+   
+\begin{itemize}
+   	\item Un proceso define lo que hay que hacer y por qué.
+    \item Un procedimiento establece cómo se debe hacer el proceso. 
+    \item Una instrucción de trabajo explica cómo llevar a cabo el procedimiento.
+\end{itemize}
+
+Estos existen para cumplir objetivos, tienen una razón de ser.
+
+Esto hace que los procesos ocurran repetidamente, se instancien en distintos momentos y vuelven a
+empezar repitiéndose en forma similar (mediante la misma plantilla, esqueleto, molde). Lo que varía
+es el contenido de esa instancia, sus datos particulares, pero no su forma, su procedimiento. Esas
+instancias son las distintas operaciones o transacciones que dan vida a la organización.
+
+Los procedimientos son parte de la normativa de la organización, son definidos formalmente y son
+controlados periódicamente para observar su desempeño y asegurar que no haya desvíos.
+
+\section{Los cursogramas}
+Los cursogramas son diagramas y sirven como herramienta de análisis organizacional. Se enfoca en algunos aspectos que son limitados de representar. Los cursogramas muestran los sectores que intervienen en un proceso y la naturaleza de las actividades que se llevan a cabo (operaciones, controles, decisiones, archivos), el orden en que ocurren y los formularios que circulan.Para ello se cuenta con una serie de símbolos y de reglas que hay que respetar.
+
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imagenes/SimbolosCursograma.png}
+    \caption{Algunos símbolos de un cursograma}
+\end{figure}
+
+\subsection*{El espacio}
+
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imagenes/cursograma.jpg}
+        \caption{Modelo de cursograma}
+\end{figure}
+
+\subsection*{Representatividad}
+\begin{itemize}
+\item Sectores y entidades externas que corresponden a departamentos de la organización, funciones especificas que pueden incluir a empresas u organismos externos.
+\item Tiempo, el orden cronológico de las actividades (solo la secuencia de eventos)
+\item Actividades,operaciones, controles, decisiones, emisión y distribución de información, firmas, registros y actualización, almacenamiento y reserva de información.
+\item Flujos, como circula la información.
+\end{itemize}
+
+La herramienta tiene limitaciones, hay información que podrá aparecer como relevante que no
+podrá ser representada sin ambigüedad, por ejemplo: los eventos temporales (periódicos) como “2
+veces por semana”, “cada lunes”, “durante la mañana”, “cuando no haya usuarios operando”. Estas
+referencias se agregan al manual del cursograma. No hay forma de descubrir cuánto tiempo pasa entre una actividad
+y otra o si son sucesivas e inmediatas.
+
+
+\subsection*{Condiciones previas}
+
+
+\subsection*{Alcance}
+El alcance está determinado por los límites de un proceso: cuando termina una venta empieza la
+cobranza, donde termina la compra comienza el pago
+
+\subsection*{Tipos de actividades}
+
+
+\section*{Sexta clase}
+
+\section{Logística}
+Herramienta estratégica que representa una actividad de mucho costo y un gran riesgo de aportar poco valor. \textit{Ej. Tener un deposito lleno de productos, el cliente lo ve como costo.}
+
+\subsection*{Objetivo PCP}
+(Planeamiento y Control de la Producción)
+
+El objetivo es satisfacer al cliente, mientras se maximiza la rentabilidad de la producción.
+
+\subsection{Organización}
+
+Tradicionalmente las áreas que dependían de la logística estaba mezcladas en el resto de las áreas. (menor costo posible)
+
+Hoy en día tiene toda un área y comprende todos los aspectos que le comprenden, cambiando que es lo que se mira al momento de la producción.
+
+\subsection{Almacenamiento}
+
+Tener en cuenta la cantidad de espacio necesario, que se pueda guardar y sacar, el movimiento de los productos, separar en sectores.
+
+\subsection{Costos de almacenamiento}
+
+\begin{math}
+EOQ = \sqrt{\frac{2 \cdot D \cdot S}{H}}
+\end{math}
+
+\medskip
+
+Donde se minimiza la curva es la cantidad que me conviene comprar.
+
+% graficos
+
+Pueden surgir un montón de problemas del almacenamiento, proveedores que no cumple, cambios de productos si tengo mucho stock, problemas de almacenamiento y movimiento, que vengan en mala calidad. Los problemas que tiene el manejo de stock se arreglan trabajando con los proveedores, realizando una buena gestión.
+
+\section{MRP}
+Es el sistema de cuentas para llevar adelante la planificación. Todo lo que necesito, menos lo que tengo, para ir a comprar. Responde al que, cuando, cuanto.
+
+Forecast me da la demanda independiente, y de ahí tengo una demanda dependiente. Con esto tengo un plan de abastecimiento.
+
+Lead Time es el tiempo que transcurre desde que se hace el pedido hasta que se entrega.
+
+% algo
+
+La BOM (Bill of materials) es la lista de materias primas, la recenta.
+
+Maneja como input el pronostico de ventas, el estado de inventarios y el lead time de fabricación. Como outputs da un plan de producción y abastecimiento.
+
+No es conveniente meter este sistema cuando tengo un volumen bajo.
+
+
+Es conveniente para empresas que trabajan por montaje y en ciclos de fabricación repetitivos.
+
+\section{Compras}
+Una buena área de compras acompaña al área de desarrollo. Busca permanentemente proveedores nuevo, trayendo propuestas nuevas. Tiene que verse como un servicio que ayuda a la empresa a crear, y no como solamente un área que sale a comprar lo que se necesita.
+
+
+
+\section{Funciones y procesos organizacionales}
+\subsection{Ingeniería del producto}
+La función principal es definir el producto en forma explicita contemplando las exigencias de mercado, técnicas (aspecto funcional) y económicas (diseño racional con el proceso productivo).
+
+Esta área debe establecer y mantener los estándares del producto, performance y durabilidad.
+
+\subsection{Ingeniería del proceso}
+Se ocupa de las formas en que se realizan las tareas y la tecnología de los procesos y su optimización.
+
+Se utilizan los cursogramas ya mencionados.
+
+\subsubsection*{Sistema de producción por producto}
+Los departamentos de producción están organizados de acuerdo al producto/servicio que se está elaborando. También se conoce como línea de producción o producción continua. \textit{Ej. autos, o galletitas}
+
+Las operaciones se combinan con el transporte, por lo que los materiales son procesados mientras se mueven. El plan de producción se elabora para períodos largos, en general, anuales con revisiones mensuales. Este plan provee toda la información para llevar a cabo la elaboración. 
+
+
+\subsubsection*{Sistema de producción enfocado al proceso}
+Las operaciones se agrupan según los tipos de proceso. Procesos tecnológicamente similares se agrupan formando distintos departamentos dentro del área de producción. También se conoce como producción intermitente, o como producción tipo taller. \textit{Ej. Talleres de reparación, plantas de manufactura.}
+
+El plan de producción se realiza en forma anticipada en función de las ventas. Requiere ajustes frecuentes. Presenta una mayor flexibilidad en relación a los productos, y una menor inversión inicial.
+
+\subsubsection*{Enfoque mixto o manufactura en células de trabajo}
+Es una combinación de los anteriores. Agrupa las producciones en familias de componentes. Esto hace que tenga una flexibilidad muy grande ante variaciones y fluctuaciones de demanda, ya que la célula se puede operar por una o mas personas en función de la cadencia de producción necesaria.
+
+\section{Comercialización}
+
+Es necesario un \textit{forecast} de ventas, ya que nos define el plan de producción.
+
+\subsection*{Objetivos}
+\begin{itemize}
+    \item Determinar objetivos específicos. \textit{Ej. Aumento del volumen de ventas, de la imagen de mercado, superar competencia,...}
+    \item Definir una política a seguir en el sector comercial.
+    \item Determinar una estrategia comercial.
+\end{itemize}
+
+\subsection*{Funciones}
+Las que son inherentes al área son el manejo de la estrategia, el manejo de la fuerza de Ventas, la
+confección de los Pronósticos de Ventas, el financiamiento a clientes, y, más específicamente en el área de
+Marketing, las funciones de manejo de promociones y publicidades, y los estudios de mercado.
+
+La fuerza de Ventas se suele agrupar de manera funcional al tipo de empresa o producto, o también en
+función de las características del mercado
+
+\subsection*{Diagnostico}
+Involucra todas las herramientas de diagnostico vistas. \textit{Pestelco, FODA, Porter...}
+
+\subsection*{Escenario}
+Se debe anticipar los posibles escenarios en los cuales se desarrollarán los negocios, generando una
+actitud frente al futuro: esbozar un futuro deseado, o trabajar sobre un futuro supuesto.
+
+El diagnóstico de la etapa precedente debe permitir la realización de un pronóstico en el que se predicen
+la viabilidad y posible evolución de la propia empresa y los competidores más importantes, especificando las
+conclusiones a las que se ha llegado
+
+\subsection*{Pronostico}
+Consiste en predecir los eventos futuros. Implica el empleo de datos históricos y su proyección.
+
+\subsection*{Ciclo de vida}
+El ciclo de vida del producto es la evolución de las ventas de un artículo durante el tiempo que permanece en el mercado. Este no es el mismo para todos los productos.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.7\textwidth]{imagenes/cicloDeVidaProducto.jpg}
+    \caption{Ciclo de vida de los productos}
+\end{figure}
+
+Las personas de marketing deben de conocer la fase en que se encuentra el producto para poder ajustar las políticas y estrategias.
+
+\begin{itemize}
+    \item Publicidad
+    \item Promoción
+    \item Precio
+    \item Distribución (Plaza), que este a la mano del publico, se encarga la logística.
+\end{itemize}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.7\textwidth]{imagenes/TiposDeCiclosDeVida.PNG}
+    \caption{Los diferentes ciclos de vida de los productos}
+\end{figure}
+
+\newpage
+
+\section*{Séptima clase}
+\section{Mantenimiento}
+Los objetivos del mantenimiento son:
+\begin{itemize}
+    \item Maximizar y gestionar la disponibilidad.
+    \item Minimizar los costos de inversión y mantenimiento (directos y indirectos)
+    \item Maximizar el valor de rezago
+    \item Proteger el capital inmovilizado en activos
+    \item Gestionar la tercerización de servicios de mantenimiento.
+\end{itemize}
+
+\subsection{Concepto de falla}
+Es un evento que produce una reducción de un bien para cumplir su función.
+
+En el tiempo se pueden desarrollar de forma catastrófica o como degradación.
+
+Los impactos que tienen son: de emergencia, costosas, peligrosas, de performance y disponibilidad.
+
+La confiabilidad es la probabilidad de falla. La tasa de las mismas.
+
+% curva de degradacion
+
+% curva de bañera
+
+\begin{table}[]
+\begin{tabular}{|l|l|}
+\hline
+\rowcolor[HTML]{ABD3AA} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{ABD3AA}\textbf{Metodo}} & \multicolumn{1}{c|}{\cellcolor[HTML]{ABD3AA}\textbf{Clave}}                                                                                                                         \\ \hline
+A rotura                                                      & Repara el evento producido por una causa desconocida                                                                                                                                \\ \hline
+Preventivo                                                    & Se previene la ocurrencia del evento producido por causa desconocidas                                                                                                               \\ \hline
+Predictivo                                                    & Se previene la ocurrencia del evento producido por causas conocidas                                                                                                                 \\ \hline
+Reconstrucción                                                & \begin{tabular}[c]{@{}l@{}}Se trata de un mantenimiento mayor, generalmente mediante una parada de planta, \\ con forma de proyecto, atacando muchos aspectos a la vez\end{tabular} \\ \hline
+Pro-activo                                                     & Es una metodología general de mejora de las practicas de mantenimiento.                                                                                                             \\ \hline
+\end{tabular}
+\end{table}
+
+Pensar que es lo mas importante a arreglar.
+
+Las tareas típicas que tiene esta área son: la limpieza, el cambio de material/piezas, control de elementos de seguridad, pruebas de aislamiento/estanqueidad.
+
+La gestión que lleva es la siguiente:
+\begin{enumerate}
+    \item Definición de objetivos.
+    \item Identificación de equipos críticos.
+    \item Análisis de modos de fallas y variables.
+    \item Elección del método de mantenimiento, esto incluye la justificación económica.
+    \item Asignar responsabilidades y procedimientos.
+    \item La ejecución/implementación.
+\end{enumerate}
+
+El control del mismo se lleva a cabo con indicadores para la gestión, control de las horas de mantenimiento, el tiempo de paradas, la cantidad de tiempo que se para.
+
+El mantenimiento no es solo para algo mecánico, también incluye las partes electrónicas. \textit{Ej. UPS para la computadora.}
+Nosotros decidimos cual hacer y a que apuntar.
+
+
+\section*{Octava clase}
+\section{Contabilidad}
+La contabilidad es el 'Arte de registrar, clasificar, y compendiar en forma sistemática y en términos monetarios los hechos y operaciones que, siquiera en parte, revistan carácter financiero, y de interpretar resultados'. Ayuda a la toma de decisiones.
+
+De esta definición, tomamos algunos elementos: en primer lugar, que todo aquello que refleja la
+contabilidad, ya sean productos, edificios, sueldos, ganancias, muebles, materiales, SIEMPRE se expresan en
+su valor monetario. La contabilidad, por decirlo de algún modo, permite sumar peras con manzanas, porque
+en ambos casos lo hacemos a partir de su valor monetario. 
+
+La situación contable atiende pasado, presente, y futuro. Del pasado para las comparaciones que permiten determinar vaivenes empresarios y la situación de la organización en distintas épocas, junto con que permite tener un mayor planeamiento y presepuestacion. Del presente porque indica la calidad y la dirección del desarrollo de los acontecimientos. Y del futuro porque permite gerenciar por anticipación.
+
+
+\subsection{Principio de la partida doble}
+Se basa en que toda empresa, con independencia de su particular índole u objeto, es una entidad personal distinta, separada, y aparte de las entidades o individuos con quien trata y de los propietarios del negocio.
+
+\begin{itemize}
+    \item Activo: lo que la empresa posee o aquello a que tiene derecho.
+    \item Pasivo: sus obligaciones respecto a terceros.
+    \item Patrimonio neto: sus obligaciones respecto a los dueños por lo que han aportado al negocio en dinero o especie, y lo que el negocio ha ganado para ellos. Es el aporte de los dueños o accionistas.
+\end{itemize}
+
+Las obligaciones para con terceros tienen carácter de preferencia sobre el activo del negocio. Los titulares
+de la empresa, sus accionistas, sólo tienen derecho al sobrante, una vez liquidadas todas las deudas (el
+pasivo).
+
+\begin{math}
+ACTIVO - PASIVO = PATRIMONIO NETO
+\end{math}
+
+Siempre se debe verificar que: 
+
+\begin{math}
+A = P + PN
+\end{math}
+Todo lo que paso de un lado, tiene su explicación en el otro.
+
+\subsection{Registraciones contables}
+Se aplica el principio de la Partida Doble: se acredita la cuenta que entrega y se
+debita la que recibe. Las cuentas del Activo tienen saldo deudor y las del Pasivo y Patrimonio Neto, acreedor. 
+
+\textit{Una forma de verlo es que el Activo le debe al Pasivo o al Patrimonio Neto.} Por eso se denominan Origen y Aplicación de Fondos.
+
+Es la bitácora de lo que pasa en la empresa contablemente.
+
+\begin{enumerate}
+    \item Compra de bienes de cambio (bienes que la empresa produce o que compra para su reventa)
+    \item Compra de bienes de uso (utilizados en el proceso productivo)
+    \item Venta de bienes de cambio
+    \item Pago de una deuda contraída por la compra de bienes
+    \item Pago de todo tipo de gastos (sueldos, publicidad, impuestos)
+    \item Amortización de bienes de uso (se registra la reducción de valor de los activos por el paso del tiempo)
+    \item Pago de intereses de una deuda o cobranza de intereses por depósito a plazo fijo
+    \item Distribución de utilidades en efectivo o acciones
+    \item Aportes de capital de accionistas
+\end{enumerate}
+
+La contabilidad es un sistema de registro. Cada una de las operaciones que día a
+día lleva a cabo la empresa, se deben registrar.
+
+\subsection{Libro diario}
+Es un registro cronológico de las operaciones y contiene los asientos (así se llama cada registro) originales.
+Los asientos dan cuenta de todas las operaciones económicas y transaccionales que realiza la empresa.
+
+\begin{table}[]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{Fecha}                   & \textbf{Detalle}                                       & \textbf{Debe} & \textbf{Haber} \\ \hline
+\multicolumn{1}{|c|}{dd/mm/aaaa} & N. - Cuentas que intervienen - Documento o comprobante & Débitos       & Créditos       \\ \hline
+\end{tabular}
+\end{table}
+
+
+\subsection{Libro mayor}
+El libro mayor es un registro en el que cada página se destina para cada una de las cuentas contables de
+una empresa. Es el registro permanente donde se acumulan y distribuyen por cuentas los datos financieros
+de la empresa. De aquí partirá la información para generar los Estados Contables. Se alimenta del Libro Diario.
+
+% imagen
+
+Cada libro mayor corresponde a una cuenta.
+
+\subsection{Plan de cuentas}
+El conjunto de Cuentas Patrimoniales y de Resultados se agrupa ordenadamente en lo que se
+denomina Plan de Cuentas. El Plan de Cuentas es propio de cada empresa, ya que dependerá del tipo de
+actividad, su magnitud y características propias, que éste le resulte significativo
+
+Prácticamente todas las empresas tienen hoy sus planes de cuentas y sus sistemas contables en
+“enlatados”, dado que salvo algunas diferencias, que en algunos casos pueden ser sutiles, no es conveniente
+el costo de desarrollar un sistema contable a medida.
+
+La empresa debe seleccionar de todas las cuentas posibles, aquellas que le significan algo.
+
+\subsection{Liquidez}
+Que tan cerca de ser billete es un activo. Lo mas liquido es el billete. \textit{Ej. Un terreno es solido.} \textit{Ej. Una empresa puede tener millones en activos, pero puede no tener un mango para comprar X cosa por no tener plata en la caja.}
+
+
+\subsection{Cuentas Patrimoniales}
+\subsubsection*{Activo}
+\begin{itemize}
+    \item Circulante: Se le llama circulante por su fácil conversión en efectivo y son: \textit{Caja, Bancos, Inversiones y Valores, Clientes, Deudores Diversos, Empleados, Documentos por cobrar, Anticipo a proveedores, IVA por Acreditar}
+    \item Activo Fijo o Inversiones Permanentes: son todos los bienes que se adquieren con la finalidad de que proporcionen un servicio para desarrollar eficazmente sus actividades tales como: \textit{Terrenos, Edificios, Equipo de Transporte, Equipo de Cómputo, Equipo de Oficina, Depreciación Acumulada de todos los anteriores}
+    \item Activos Diferidos o Cargos Diferidos: Son todos los pagos efectuados anticipadamente, que con el tiempo se convierten en gastos, tales como: \textit{Gastos de instalación, Propaganda y publicidad, Primas de seguros, Rentas Pagadas por Anticipados, Interés pagados por Anticipados, Amortizaciones Acumuladas de todos los anteriores}
+\end{itemize}
+
+\subsubsection*{Pasivo}
+\begin{itemize}
+    \item Circulante: Son todas las deudas y obligaciones menor a un año, tales como: \textit{Proveedores, Acreedores diversos, Documentos por pagar, Anticipo de Clientes, Impuestos por pagar, IVA por Pagar}
+    \item Fijo o consolidado: Son todas las deudas y obligaciones mayor a un año, tales como: \textit{Hipotecas por pagar, Acreedores Hipotecarios}
+    \item Créditos Diferidos: Son todos aquellos cobros efectuados anticipadamente, que con el tiempo se convierten en utilidad, tales como: \textit{Rentas cobradas por anticipado, Intereses cobradas por anticipado}
+\end{itemize}
+
+\subsubsection*{Capital o Patrimonio Neto}
+Es el capital social, resultado del ejercicio y ej. anteriores y la reserva legal. Estas cuentas se denominan, como cuentas de balance por que aparecen en el Balance General.
+
+\subsubsection*{Principales cuentas de resultados}
+\begin{itemize}
+    \item Ventas del Período. (I)
+    \item Gastos directos en los Productos vendidos. (G) Materias Primas, Mano de obra.
+    \item Gastos Generales del período. (G) Fabricación, Comercialización, Logística, Administración etc
+    \item Impuestos. (G) Directos sobre la Facturación, (Ingresos Brutos, Retenciones por Ej), Fijos del Período, (Municipales por Ej), Indirectos, (a las Ganancias por Ej) . El IVA no entra en el CR .
+    \item Amortizaciones o depreciaciones. Los bienes que componen el Activo Fijo, van perdiendo su valor por el pasaje del tiempo. Esto, reconocido por las autoridades, permite la amortización de cada bien, en un número de años mínimo. La amortización no es una erogación real de dinero, pero resta su valor de las utilidades del ejercicio, con lo que reduce el monto de los impuestos a las ganancias. Como la amortización reduce utilidades pero no sale dinero de la caja, es “como si hubiera una transferencia del Activo Fijo hacia la Caja”.
+    \item Resultados Financieros. (G) Impuesto al cheque, Gastos bancarios, Punitorios cobrados a clientes o pagados a proveedores, intereses pagados por endeudamiento o cobrados por inversiones financieras etc
+\end{itemize}
+
+\subsection{Estados contables}
+Son los que nos permiten cumplir con el objetivo de la contabilidad de ser una herramienta de control de gestión.
+
+ La información contable al cierre
+se presenta de acuerdo a un modelo formal integrado por el balance general y el estado de resultados, que
+exponen la situación económica, financiera y patrimonial de la empresa. En la etapa final el proceso de la
+contabilidad efectúa el análisis e interpretación de estos estados contables para diagnosticar el estado de la
+empresa: sana o con dificultades. Esto ayuda a la toma de decisiones por parte de los usuarios de esta
+información contable.
+
+\subsubsection*{Balance}
+Muestra los saldos de las cuentas reales (A, P y PN). Esto tiene un formato standard. Normalmente las
+empresas cierran su ejercicio (período de actividad) en una determinada fecha que es fija año a año. Esta
+regularidad en la fijación de tamaño del período de análisis permite analizar comparativas y evoluciones de
+la información. El Balance es una “foto” de los saldos de las cuentas tomados en un momento dado.
+
+No me importa lo que paso en el medio, muestra como estoy el ultimo día del ejercicio. Cierran balance una vez por año formalmente para presentarlo.
+
+\subsubsection*{Cuadro de resultados}
+O Estado de Pérdidas y Ganancias. Permite efectuar una apertura conceptual de las razones por las
+cuales se produjo el resultado neto que fue incluido en el Patrimonio Neto del Balance. A diferencia del
+Balance, no expone valores correspondientes a una fecha determinada, sino cifras que manifiestan las
+consecuencias de las operaciones a lo largo del ejercicio. Muestra la evolución económica, no la situación
+patrimonial. Decíamos que el Balance es una foto, por el contrario, el cuadro de resultados es un flujo. Esto
+se ve, por ejemplo, en las ventas, que son los productos que se entregan reduciendo el inventario. Suele
+expresarse la misma idea mediante la comparación del balance frente al cuadro de resultados con una foto
+o una película.
+
+Tambien una vez por año formalmente lo presentan. Normalmente lo van haciendo en periodos mas cortos. Para el siguiente cuadro se empieza de cero, no se incluye lo anterior.
+
+El IVA es un impuesto que no figura en este cuadro, lo paga el consumidor final. Las empresas solo figuran como retención.
+
+\subsection{Rubros del estado de resultados}
+\begin{itemize}
+    \item Ventas del Período. (I) Partidas correspondientes a los ingresos generados por la comercialización de
+bienes y servicios que forman parte de la actividad principal de la empresa y que se devengaron durante
+el ejercicio.
+    \item Gastos directos en los Productos vendidos. (G) Materias Primas, Mano de obra. Se incorporan los
+conceptos relativos a los esfuerzos económicos realizados para obtener los productos o servicios que
+forman parte de las ventas.
+    \item Gastos Generales del período. (G) Fabricación, Comercialización, Logística, Administración etc. No tienen
+relación específica con los productos o servicios vendidos.
+    \item Impuestos. (G) Directos sobre la Facturación, (Ingresos Brutos, Retenciones por Ej), Fijos del Período,
+(Municipales por Ej), Indirectos, (a las Ganancias por Ej) . El IVA no entra en el CR . Por que? La empresa
+sólo es un agente de retención de este impuesto, que lo paga el consumidor final al Estado, no a la
+empresa.
+    \item Amortizaciones o depreciaciones. Los bienes que componen el Activo Fijo van perdiendo su valor por el
+pasaje del tiempo. Esto, reconocido por las autoridades, permite la amortización de cada bien, en un
+número de años mínimo. La amortización no es una erogación real de dinero, pero resta su valor de las
+utilidades del ejercicio, con lo que reduce el monto de los impuestos a las ganancias. Como la
+amortización reduce utilidades, pero no sale dinero de la caja, es “como si hubiera una transferencia del
+Activo Fijo hacia la Caja”.
+    \item Resultados Financieros. (G) Impuesto al cheque, Gastos bancarios, Punitorios cobrados a clientes o
+pagados a proveedores, intereses pagados por endeudamiento o cobrados por inversiones financieras
+etc.
+\end{itemize}
+
+
+\subsection{Amortizaciones}
+Las amortizaciones son la forma de registrar el paso del tiempo y su efecto en el valor de los bienes de
+uso de una empresa. Es dar de baja en libros parte del costo de un activo, depreciándolo
+hasta agotarlo.
+
+Estas situaciones constituyen pérdidas para las empresas, porque hablan de que sus
+activos tienen cada vez más valor. Es la única cuenta que se registra de manera negativa en el activo.
+
+Tengo una cantidad de activos que con el tiempo empiezan a perder valor. Van a parar a cada ejercicio, y después se van acumulando.
+
+\subsection{Previsiones}
+Es el proceso de predecir cifras futuras para el negocio o empresa. Estas cifras están correlacionadas con estadísticas pasadas, por lo que los contadores basan su estimación
+en datos históricos.
+
+Montos que reservo para situaciones de contingencia, por las dudas. \textit{Ej. La posibilidad de un accidente laboral.}
+
+\subsection{Provisiones}
+Una provisión es una cuenta de pasivo y consiste en establecer y 'guardar' una cantidad de recursos
+como un gasto para estar preparados por si realmente se produjese el pago de una obligación que la empresa
+ya ha contraído con anterioridad.
+
+\textit{Ej. Un juicio}
+
+\subsection*{Operaciones permutativas}
+Entra algo, sale algo. No modifiocan el patrimonio neto,
+
+\subsection*{Operaciones modificativas}
+Implica que algo se gano o perdio, va al cuadro de resultados.
+
+\section*{Novena clase}
+\section{Costos}
+Las transacciones realizadas son las que se registran a través de la contabilidad. El
+esfuerzo es evaluado en unidades monetarias, y el retorno es pagado también en la misma
+unidad monetaria.
+
+Uno de los aspectos mas importantes que los empresarios necesitan analizar para tomar decisiones se basa en la rentabilidad de la empresa, si tuvo ganancia o perdida. Esto surge del Estado de Resultados.
+
+
+\subsection*{¿Que son los costos?}
+
+Los costos se pueden ver desde tres tipos de empresas.
+\begin{itemize}
+    \item Empresa comercial: Tienen como actividad la compra-venta de bienes, requiere un esfuerzo relacionado con la adquisición del bien y su posterior venta.
+    \item Empresa industrial: Los bienes producidos requerirán un esfuerzo en término de materiales y mano de obra.
+    \item Empresa de servicios: Los sueldos de los empleados son el esfuerzo que se requiere para atender las necesidades de los clientes.
+\end{itemize}
+
+Puede suceder que los ingresos que genera la 
+empresa ya se hayan producido o se produzcan en el futuro, con 
+respecto al momento de la emisión de la información contable. Si los ingresos aún no se han producido, 
+es porque el sacrificio que se ha hecho tiene relación con ingresos futuros, de tal forma que el importe 
+de ese sacrificio debe ubicarse en el activo del estado de situación patrimonial (balance).
+
+Si los ingresos ya se han producido, ya tiene utilidad económica futura, y por lo tanto ya ha dejado 
+de ser un activo. Deberá ubicárselo entre los costos y gastos en el estado de resultados.
+
+\begin{itemize}
+    \item Utilidad $\neq$ Ingreso de dinero: En la utilidad se habla del resultado de nuestras operaciones, en el segundo de un movimiento positivo en la cuenta Caja.
+    \item Gasto $\neq$ Desembolso: Gasto es aquello que se requiere para obtener los productos o servicios propios de la actividad (cantidad de dinero que se va), el Desembolso es el movimiento negativo de la Caja.
+    \item Costo $\neq$ Inversión: Costo alude a la obtención de productos o servicios, la Inversión a un sacrificio actual para un beneficio en el futuro. (Los costos de cierta forma van a parar al precio)
+\end{itemize}
+
+Entonces, los costos son todos los sacrificios necesarios, y el valor dado a esos costos
+está proporcionado por el valor de cada uno de los esfuerzos realizados.
+
+\subsection{Gestión de costos}
+Todas las empresas deben llevar a cabo una gestión de costos. Sin esto no será posible conocer el éxito de la actividad en términos económicos. Tiene las siguientes tareas:
+\begin{itemize}
+    \item Valorización del flujo de ingresos y egresos de una empresa (Cuadro de Resultados) (Ventas - Costos del producto) (La gestión de costos sirve para poder armar este cuadro)
+    \item Ajuste dinámico de los costos en función de tasa de interés, inflación, tipos de cambio
+    \item Análisis especiales de costo por proveedor, por región, por función dentro de la empresa, por producto o por servicio
+    \item Análisis de costos para: valuación de inventarios, eliminación de una línea de producción, mano de obra directa, eficiencia de la gerencia, rentabilidad por producto/servicio/proveedor, óptimo uso de la capacidad, etc.
+\end{itemize}
+
+\subsection{Clasificación de costos}
+Tomamos solo tres clasificaciones: : la clasificación en función de su identificación con el producto, la clasificación en 
+función de su variabilidad respecto de la producción, y la actividad a la que se destinan.
+
+Se dividen en directos (variables) y indirectos (fijos). Los fijos los pagas independientemente del nivel de actividad que tengas. \textit{Ej. el alquiler} Los variables dependen de la actividad. \textit{Ej. Cuantos productos vendí, cuanto vuelvo a comprar.}
+
+\begin{itemize}
+    \item En función de su identificación con el producto: Tiene“costos directos”, debido a que su identificación se realiza directamente con el producto y “costos indirectos”, ya que debe buscarse algún criterio que permita atribuirlos a cada artículo.
+    \item En función de su variabilidad respecto de la producción: Algunos costos permanecen constantes a pesar de que se produzcan variaciones en las cantidades elaboradas en la empresa. Otros, por el contrario, varían en forma directamente proporcional a los cambios en los niveles de producción. Un tercer grupo permanece constante, pero sólo hasta determinado nivel de producción, superado ese nivel, varían manteniendo una constancia hasta que se produce otro salto en las cantidades fabricadas.
+    \item Sobre la base de las actividades a las que se destinan:
+    \begin{itemize}
+        \item De producción: son aquellos que resultan necesarios en el proceso de transformación de los bienes o servicios producidos, desde la materia prima al producto terminado
+        \item De comercialización: los requeridos para la distribución del producto, la publicidad, logística, gastos del área comercial, etc
+        \item De administración: todo aquello que se relaciona con el planeamiento, el control y la gestión generales de la empresa
+        \item De financiamiento: originados en la obtención de fondos de terceros para operar (por ejemplo, préstamos bancarios). 
+    \end{itemize}
+\end{itemize}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.7\textwidth]{imagenes/AnatomiaCosto.PNG}
+    \caption{Anatomía del costo}
+\end{figure}
+
+
+La estimación de costos implica la realización de predicciones sobre la cantidad mas probable de esfuerzo, tiempo y niveles de personal que se requiere.
+Se comparara cuanto cotiza otro competidor por la hora del proyecto, para poder hacer una estimación preliminar. (benchmark)
+
+\newpage
+
+\subsection{Diagrama de Knoppel}
+Es un diagrama que muestra el comportamiento de los costos según sean fijos o variables y su relación con el precio de venta. Es muy útil para determinar cuál debe 
+ser el mínimo valor que debemos ofrecer al mercado por la adquisición de nuestro producto, en lo que 
+se denomina el punto de equilibrio.
+
+Los costos fijos tienen un valor constante e independiente del incremento 
+en el número de unidades. No así los costos variables, los cuales tienen un valor directamente 
+proporcional y lineal respecto de las unidades producidas y/o vendidas.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.7\textwidth]{imagenes/Diagrama Knoppel.PNG}
+    \caption{Diagrama de Knoppel}
+\end{figure}
+
+El valor indicado por el segmento U es la UTILIDAD, es decir, la ganancia que obtengo luego de haber 
+pagado todos los costos fijos y variables. La curva de ingresos por ventas (IV) tiene el mismo 
+comportamiento que la de costos variables (CV), porque responde a la misma lógica: si vendo cero, 
+ingresa cero. La pendiente está dada por el precio de venta. ¿Qué indica entonces el gráfico? Hay una 
+determinada cantidad de unidades a partir de la cual podemos ganar dinero con ese precio de ventas.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.7\textwidth]{imagenes/KnoppelUnitario.PNG}
+    \caption{Diagrama de Knoppel unitario}
+\end{figure}
+
+En el gráfico de los costos globales, vemos que, a mayor cantidad de unidades, y pasado el punto de 
+equilibrio, las ganancias son cada vez mayores. En el gráfico de los costos unitarios, en la medida que 
+tenemos más unidades, la cantidad de costos fijos que “carga” cada una de ellas es menor. De ambas 
+situaciones se desprende que siempre se obtienen mejores resultados al incrementar la cantidad de 
+unidades producidas. Siempre en un determinado entorno productivo. 
+
+Los siguientes gráficos muestran el efecto de las tres posibles decisiones que nos podrían llevar a 
+bajar el número de unidades producidas/vendidas para alcanzar una mínima utilidad. En el primer caso, 
+bajando los costos variables. Al reducir el consumo de materiales, mano de obra, y cualquier insumo 
+directamente afectado a la producción, la pendiente de la curva de costos variables será menor, y 
+encontrará a la de ingresos por ventas en un punto más situado a la izquierda, que corresponde a un 
+número de unidades menor.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.4\textwidth]{imagenes/KnoppelBajarVariable.PNG}
+    \caption{Efecto bajando costos variables.}
+\end{figure}
+
+Un segundo caso, similar al anterior, pero en este caso 
+reduciendo los costos fijos. La curva de costos totales 
+desciende, ya que parte desde un valor menor en el eje Y. Su 
+encuentro con la curva de ingresos por ventas (IV) se 
+produce antes, lo cual indica que se necesitan menos 
+unidades que absorban el costo fijo, para lograr un punto de 
+equilibrio.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.4\textwidth]{imagenes/KnoppelBajarfijo.PNG}
+    \caption{Efecto bajando costos fijos.}
+\end{figure}
+
+El tercer caso, el que menos trabajo de ingeniero requiere, es aumentar los precios. Al aumentar la 
+pendiente de los IV encuentra más rápidamente la curva de costo total: con menos unidades obtengo 
+más ganancia. Obviamente, las consecuencias dependerán de la reacción del mercado a este aumento 
+de precio, y dependerá de la elasticidad de la demanda de cada producto en particular.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.4\textwidth]{imagenes/KnoppelSubirPrecio.PNG}
+    \caption{Efecto subiendo el precio de venta.}
+\end{figure}
+
+\newpage
+
+Conclusiones:
+\begin{itemize}
+    \item Todas las empresas tienen un punto por debajo del cual pierden dinero, por eso es muy importante conocer el punto de equilibrio
+    \item El costo total unitario disminuye al aumentar el número de unidades producidas
+    \item Siempre convienen las altas producciones.
+    \item Las altas producciones es verdad mientras nos manejamos dentro del mismo nivel de 
+    actividad. Hay un momento en el cual la capacidad productiva se satura y es necesario hacer 
+    un salto de crecimiento (una máquina nueva, una línea adicional, un turno de producción 
+    más), y la cuenta se vuelve a calcular.
+\end{itemize}
+
+\textit{Nota: el crecimiento de una instalación no es lineal.}
+
+\textit{Nota 2: el gráfico asuma que la empresa no produce en exceso.}
+
+
+
+Los costos fijos no son tan fijos; varían, pero de a saltos, con el número de unidades producidas. El 
+punto de equilibrio es, por lo tanto, un valor tal que por debajo de él no se cubren los costos y se pierde 
+plata con la operación, lo cual no significa que no convenga trabajar. Si la cantidad crece, se produce la 
+llamada ECONOMÍA DE ESCALA.
+
+\begin{center}
+\begin{math}
+C = CF + CV
+\end{math}
+\medskip
+
+\begin{math}
+IV = P \cdot Q
+\end{math}
+\medskip
+
+\begin{math}
+U = IV - C = IV - CF - CV
+\end{math}
+\medskip
+
+\begin{math}
+UB = IV - CV = CF + U
+\end{math}
+\medskip
+
+\begin{math}
+UB\% = \frac{UB}{IV} \cdot 100
+\end{math}
+\end{center}
+
+C = Costo Total
+
+CF = Costo Fijo
+
+CV = Costo variable
+
+IV = Ingreso por ventas
+
+P = precio
+
+Q = cantidad
+
+U = Utilidad
+
+UB = Utilidad básica (UB\% = utilidad básica porcentual) (Contribución marginal) es lo que cada producto aporta para pagar los gastos fijos y generar utilidades.
+
+La UB o Contribución marginal, es lo que cada producto aporta para pagar los gastos fijos y generar utilidades. La UB\% son los centavos que obtengo por cada peso vendido. Esto me permite comparar productos entre sí, de tal manera que aquel que tenga mayor UB\% será el más conveniente para mi empresa.
+
+\subsection{Sistemas de costeos}
+Son formas de registrar y contabilizar los costos de una empresa. 
+
+\subsubsection*{Costeo integral}
+En este sistema, los costos directos se asignan a cada producto. Los costos fijos se distribuyen en forma lo más aproximada posible (pero siempre aproximada y arbitrariamente) entre los distintos productos de una empresa
+
+Es un sistema completo porque llega a determinar el costo total de cada producto y con ellos puedo determinar su utilidad unitaria como la diferencia entre el precio a que vendo menos los costos totales (fijos + variables), pero imperfecto porque la asignación de los costos fijos es inexacta.
+
+\begin{center}
+\begin{math}
+P - (CV + CF) = U
+\end{math}
+\end{center}
+
+\begin{itemize}
+    \item Más laborioso
+    \item Es inexacto
+    \item Llega al valor concreto de la utilidad de cada producto
+\end{itemize}
+
+El costo variable se asigna directo a cada producto. El costo fijo no se puede asignar a un solo producto, hay que repartirlo usando algún criterio, no hay uno de manual. Cada empresa decide lo que mas le conviene.
+
+Se obtiene cuanto aporta cada producto para sostener esos gastos fijos. Nos puede indicar que productos aumentar producción o sacar. 
+
+Lo importante es conocer los datos para tomar una decisión.
+
+\subsubsection*{Costeo directo}
+Los costos directos se asignan a cada producto. Los costos fijos se toman globalmente y se cargan a la totalidad de los productos.
+
+\begin{center}
+\begin{math}
+UB = IV - CD
+\end{math}
+\end{center}
+
+La utilidad básica en este caso es lo que la venta de cada producto 
+contribuye para pagar los gastos fijos y generar beneficio.
+
+Es un sistema incompleto, sólo determino el costo directo de cada producto, pero es un sistema perfecto porque no hace asignaciones aproximadas.
+
+A través del cálculo de la UB\% de cada producto, me permite 
+comparar entre ellos y ver cuál es el mejor.
+
+\begin{itemize}
+    \item Más simple
+    \item Es exacto
+    \item No llega a la utilidad de cada producto, pero si a la UB\% que representa los centavos que por cada peso de venta adicional me ingresan para pagar gastos fijos y generar beneficios.
+\end{itemize}
+
+\section*{Décima clase}
+\section{Control de gestión}
+
+A lo largo de los años las empresas cambiaron profundamente.
+\begin{itemize}
+    \item Aceleración del ciclo de vida de los productos
+    \item Pasaje de una economía de oferta a una impulsada por la demanda
+    \item Aumento de la competitividad
+    \item Cambios continuos en el comportamiento de los consumidores
+\end{itemize}
+La clave del éxito de las organizaciones ya no reside en ser productivas, eficientes y generar una
+rentabilidad razonable, hoy se requiere de nuevas habilidades, tales como la búsqueda de resultados y no un mero cumplimiento de normas.
+
+Las empresas requieren de un fuerte control de sus variables operativas, económicas y comerciales para
+poder asegurar la rentabilidad del negocio. Para ello es necesario utilizar herramientas que permitan
+comprender, evaluar y apreciar la performance con el fin de focalizar y dinamizar la organización alrededor
+de ciertas prioridades, así como asistir a los directivos en la toma de decisiones. 
+
+Esta área es fundamental y constituye una disciplina indispensable para la toma de decisiones de la organización. Para esto, se elaboran herramientas de gestión (tableros de control, de mando integral, reportes).
+
+Las funciones que tiene son:
+\begin{itemize}
+    \item Asistir a la alta dirección para definir las políticas de la empresa.
+    \item Contribuir permanentemente en mejorar el rendimiento de las actividades.
+    \item Adaptar el sistema de información
+\end{itemize}
+
+El control de gestión es inseparable de 2 conceptos fundamentales, la dirección y la administración. La dirección consiste en la ejecución de los planes de acción influyendo en las personas para que contribuyan a las metas de la organización. La administración constituye la guía de acción correctiva y consiste en evaluar y analizar los desvíos entre los resultados presentes y esperados, estableciendo un plan de acción adecuado para reducir la variabilidad y llevar adelante el seguimiento de los planes de acción acordados.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{imagenes/SistemaDecisiorioInformativo.PNG}
+\end{figure}
+
+\subsection{Indicadores}
+Es un elemento o conjunto de elementos que proveen información significativa, constituyendo un índice representativo que surge de la necesidad de medir elementos relacionados con el funcionamiento de la organización. Estos se basan en una serie de métricas para ligar los objetivos de la empresa con planes de acción concretos.
+
+'Muestra algo en función de algo(\textit{Ej. el tiempo})'. Nos permite tomar mejores decisiones. Se vuelven mas importantes por la velocidad de cambio.
+
+Para elaborar un buen indicador (S.M.A.R.T.): 
+\begin{itemize}
+    \item Especifico: Claro y sin ambigüedades, preferentemente no general. No debe estar fuera del perímetro del controlador.
+    \item Medible: Cuantitativos e indiscutibles. Deben medir en forma concreta el progreso hacia el logro de los objetivos.
+    \item Alcanzable: Vinculado a un resultado intermedio, orientado a la acción
+    \item Realista: Deben de poder ser realizables.
+    \item Temporalmente definido.
+    \item Confiables en cuanto a su rendimiento (no deben poder criticarse por la exactitud del calculo)
+    \item La recolección de la información debe ser simple y económica.
+    \item Comprendidas por todos los miembros de la organización y agentes externos (\textit{Ej. AFIP, proveedores, clientes}).
+    \item La cantidad de indicadores no debe ser excesiva.
+    \item Deben presentar las características de los instrumentos de medición: deben ser explicativos, confiables, pertinentes, sintéticos, y estar construidos de manera colaborativa
+\end{itemize}
+
+El costo de la obtención de esta información no puede superar el beneficio que se obtendría. (\textit{Ej. Parar producción entera para medir la calidad}).
+
+Se clasifican de acuerdo a los siguientes niveles.
+\begin{itemize}
+    \item Nivel 1: Indicadores asociados al cumplimiento de objetivos, miden el desempeño
+    \item Nivel 2: Indicadores asociados a la mejora del rendimiento, instauran la idea de la mejora
+    \item Nivel 3: Indicadores asociados al aprendizaje continuo
+\end{itemize}
+
+\subsection{Tablero de control}
+Herramienta operativa que resulta muy útil para controlar y medir el avance de los
+resultados de un área o sector determinado de la empresa. Está formado por indicadores
+que se encuentran focalizados en los procesos del plan estratégico de la organización.
+
+Su función principal es ser la interfase entre el sistema de información que
+consta de funciones o actividades y el sistema decisorio, que tiene en cuenta los objetivos esperados y los
+cambios en el entorno de la organización.
+
+Estrategia de la empresa -> Objetivos de la unidad -> Identificación de los factores clave de
+éxito - > Definición de indicadores de rendimiento -> Puesta en forma de tablero de control.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.3\textwidth]{imagenes/EtapasElaboracionTablero.PNG}
+    \caption{Etapas de elaboración de un tablero.}
+\end{figure}
+
+La condición del éxito reposa sobre la participación real de los directores y gerentes para
+motivar en el instrumento de gestión, evaluada permanentemente.
+
+\subsection{Tablero de mando integral (Balanced Scoreboard)}
+Ofrece una visión integrada y balanceada de la empresa con el objeto de implementar su estrategia en forma eficiente.
+
+Esta metodología deriva de la gestión estratégica de la empresa y presupone una elección de
+indicadores que no está restringida únicamente al área económico-financiera, dado que estas métricas no
+son suficientes para garantizar el éxito del negocio. Por este motivo, se presenta la necesidad de
+monitorear estos resultados junto con indicadores de desempeño de mercado, procesos internos,
+innovación y desarrollo tecnológico.
+
+Está definido por cuatro perspectivas: financiera, clientes, procesos internos y aprendizaje o
+innovación. Cada una de estas se vincula con las otras en una relación causa-efecto
+
+\begin{itemize}
+    \item Financiera: Objetivos financieros que queremos alcanzar. ¿Cómo nos ven los accionistas?
+    \item Clientes: Necesidades del cliente que debemos satisfacer. ¿Cómo nos ven los clientes?
+    \item Procesos internos: En qué procesos internos debemos ser excelentes. ¿Sobre qué debemos mejorar?
+    \item Aprendizaje o innovación: Aprender e innovar la organización. ¿Podemos continuar mejorando y creando valor?
+\end{itemize}
+
+Estas perspectivas contribuyen a la creación del valor económico futuro de la empresa.
+
+El BSC pone la estrategia y la visión en el centro y no el control. Asume que la gente
+adoptará los comportamientos y tomará las acciones necesarias, pretende traducir la
+estrategia y la misión en un conjunto de indicadores que informan de la consecución de los
+objetivos, se pretende identificar las relaciones causa-efecto que provocan los resultados
+obtenidos.
+
+Tiene un alto potencial como instrumento de formación, de gestión
+participativa, de motivación e incentivo de los empleados.
+
+\subsection{Reporting}
+Los reportes mensuales que acompañan a los tableros de control son un instrumento que posibilita la
+verificación del buen funcionamiento de la empresa de acuerdo a las prioridades de la misma. Son una herramienta interna.a. El objetivo de los reportes es informar los resultados de la empresa e indicar los medios para captar mejor el futuro, medir el rendimiento de forma más exacta y controlar la rentabilidad esperada
+
+Otra tarea fundamental de los reportes es instalar un diálogo continuo entre los distintos niveles de la
+organización. Para la dirección de la empresa, el nivel de estandarización de la información es elevado con
+un grado de detalle bajo, focalizándose en aquella información que impacta en la estrategia de la
+organización. Por otro lado, los reportes destinados a la gestión del nivel operacional, presentan un bajo
+nivel de estandarización con un elevado grado de detalle sobre la información operativa de la empresa.
+
+Los reportes buscan producir información brutal y global, los tableros tienen como objetivo
+seleccionar y orientar la información. Los informes de gestión complementaban los
+elementos esencialmente cuantitativos que comunican la performance comercial y
+financiera de la empresa con elementos cualitativos.
+
+A medida que se sube en la pirámide de la organización, las decisiones pasan de mas operativas a mas estratégicas. Arriba la estandarizacion es elevada, abajo es baja. Con el nivel de detalle, abajo es elevado, arriba es bajo.
+
+\section*{Onceava clase}
+\section{Presupuesto}
+
+El presupuesto es el dimensionamiento cuantitativo de nuestra actividad. Este puede definirse como la presentación ordenada de los resultados previstos de un plan, un proyecto o una estrategia. En general, expresada en forma monetaria.
+
+Se diferencia de la contabilidad tradicional, en el sentido de
+que los presupuestos están orientados hacia el futuro y no hacia
+el pasado.
+
+
+El presupuesto es una herramienta de planificación y control, expresado en unidades monetarias, que permite prever y controlar el desarrollo de las actividades de una organización en un periodo de tiempo. Visualiza los aspectos económicos y financieros.
+
+Tiene diferentes objetivos, planear los resultados de la organización en dinero y volúmenes, controlar el manejo de ingresos y egresos de la empresa, coordinar y relacionar las actividades de la organización, y lograr los resultados de las operaciones periódicas.
+
+Los presupuestos se clasifican de acuerdo al plazo:
+\begin{itemize}
+    \item Presupuesto a corto plazo: son aquellos ideados para solventar un período de operación determinado, pero no abarcan más de un año. (nivel de actividad de la organización, solo tiene en cuenta el plan de ventas)
+    \item Presupuesto a largo plazo: cubren un periodo extenso de tiempo, tienen en cuenta factores económicos tales como empleo, seguridad, infraestructura, etc. (tiene en cuenta otras cosas que afectan en el entorno, \textit{Ej. comprar una maquina})
+\end{itemize}
+
+\subsection{Funciones y ventajas}
+\begin{itemize}
+    \item Es una herramienta analítica, precisa y oportuna, facilita la toma de decisiones.
+    \item Da soporte para la asignación de recursos
+    \item Da capacidad para controlar el desempeño real en curso
+    \item Da advertencias de las desviaciones respecto a los pronósticos, anticipación de las necesidades de financiamiento.
+    \item Da indicios anticipados de las oportunidades o de los riesgos venideros.
+    \item Capacidad para emplear el desempeño pasado como guía o instrumento de aprendizaje.
+    \item Concepción comprensible, que conduzca a un consenso y al respaldo del presupuesto anual.
+    \item Asigna con claridad las responsabilidades entre los funcionarios de la organización.
+\end{itemize}
+
+En esencia, es concebir por anticipado y sobre papel, lo que la empresa debería cumplir en un período futuro. Los distintos presupuestos deben ser coherentes entre sí. Se divide en dos etapas, la previa (conformación del presupuesto, anterior a los hechos), y la del control propiamente dicho (mientras los hechos ocurren). (Si se estimaron bien los recursos, y si se usaron bien)
+
+\subsection{Presupuesto económico}
+
+Se refiere propiamente a las actividades de producir, vender y administrar la 
+organización, que son las actividades típicas a través de las cuales una empresa cumple su misión de ofrecer 
+productos o servicios a la sociedad. El resultado final de la operatoria dependerá de varios conceptos 
+contables, que afectan el cálculo de pérdidas y ganancias (entre ellos las amortizaciones, que quitan valor a 
+nuestros activos por el paso del tiempo, los ajustes por inflación, etc.).
+
+El resultado de las operaciones del ejercicio se vera al final del mismo. El cuadro de resultados muestra lo que el Estado considera ganancia. En Ventas Brutas se considera valor contable de la facturación. El Costo de Ventas suele ser un concepto conflictivo. Lo 
+principal es entender que el costo es del costo de las ventas, de lo que realmente se vendió. Es un 
+costo variabilizado por la venta, es decir, se considera sólo lo que se vendió de todo lo que se produjo.
+
+Lo producido va a stock (activo), si no se vende, no tenemos costo de ventas. Si se tiene un costo de producción (el de inventarios o el valor con el que 'activamos' el inventario), Tener unidades en el inventario no permite calcular ganancia o perdida, solo es posible luego de la venta.
+
+Todo lo relacionado con la unidad productiva.
+
+\subsection{Presupuesto financiero}
+
+Consiste en estimar el flujo (ingreso/egreso) de bienes monetarios líquidos varios para elaborar al final un flujo de caja que mida el estado real de la empresa. Las cuestiones financieras no están ligadas directamente con la ganancia o la perdida. Hay aspectos que no se consideran en el flujo (\textit{Ej. las amortizaciones}).
+
+La forma de operar en la organización puede afectar a sus finanzas: política de cobranzas, 
+política de pagos, impuestos, personal, etc. Lo que interesa en el control financiero es “cuánto” y “cuándo”.
+
+Todas las empresas invierten sus saldos. Existen muchas opciones, desde plazos fijos hasta acciones, 
+pasando por muchas otras. De esta forma las organizaciones intentan paliar la desvalorización de sus bienes 
+monetarios y muy ocasionalmente, obtener ganancias adicionales. Esos saldos que se muestran en el cash 
+Flow permiten planificar estas inversiones financieras. Y en algunos casos, esos ingresos de intereses por 
+inversiones, permiten corregir saldos negativos de algunos meses.
+
+Todo lo relacionado con el flujo de la caja.
+
+
+\subsection{Proceso Presupuestario}
+
+\subsubsection*{Definición y transmisión de las directrices generales}
+La dirección general, o la dirección estratégica, es la responsable de transmitir a cada área de actividad 
+las instrucciones generales, para que éstas puedan diseñar sus planes, programas, y presupuestos.
+
+
+\subsubsection*{Elaboración de planes, programas y presupuestos}
+A partir de las directrices recibidas, cada responsable elaborará el presupuesto considerando las distintas 
+acciones que deben emprender para poder cumplir los objetivos marcados. Conviene plantear alternativas que consideren variaciones en el entorno.
+
+\subsubsection*{Negociación de los presupuestos}
+Proceso que va de abajo hacia arriba, a través de fases iterativas sucesivas, cada uno de los niveles 
+jerárquicos consolida los distintos planes, programas y presupuestos aceptados en los niveles anteriores.
+
+\subsubsection*{Coordinación de los presupuestos}
+Se comprueba la coherencia de cada uno de los planes y programas, con el fin de introducir las 
+modificaciones necesarias y así alcanzar el adecuado equilibrio entre las distintas áreas.
+
+\subsubsection*{Aprobación de los presupuestos}
+Por parte de la dirección general supone evaluar los objetivos que pretende alcanzar la entidad a corto 
+plazo, así como los resultados previstos en base de la actividad que se va a desarrollar
+
+\subsubsection*{Seguimiento y actualización de los presupuestos}
+Una vez aprobado el presupuesto es necesario llevar a cabo un seguimiento o un control de la evolución 
+de cada una de las variables que lo han configurado y proceder a la comparación con las previsiones. Este 
+seguimiento permitirá corregir la situaciones y actuaciones desfavorables, y fijar las nuevas previsiones que 
+pudieran derivarse del nuevo contexto.
+
+\subsubsection*{Limitaciones}
+Al ser una herramienta de pronostico y estimación, tiene limitaciones también.
+
+\begin{itemize}
+    \item Se basan en estimaciones.
+    \item Deben adaptarse constantemente a los cambios de importancia.
+    \item Su ejecución no es automática.
+    \item Sirve a la administración a cumplir el cometido, no para entrar en competencia con ella.
+    \item No debe implantarse por la fuerza desde la alta gerencia a la organización.
+\end{itemize}
+
+% agregar armado de un balance proyectado
+
+\subsection*{Elaboración}
+Arranca de un Balance Inicial de la empresa y, como input, el pronóstico de ventas para el período (Forecast).Esto permite dimensionar adecuadamente la actividad de toda la organización.
+
+A partir del pronóstico de ventas, y sumando la política de stocks de seguridad para los productos 
+terminados, obtenemos cuál debería ser la producción del período. (Asi se elabora el plan maestro de producción)
+
+Luego dimensionamos los recursos necesarios para dicha producción, haciendo una gran simplificación, mano de obra, materias primas, y gastos variables de fabricación.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.7\textwidth]{imagenes/presupuesto pasos.PNG}
+    \caption{Pasos del armado - plan de ventas, estimo cuanto voy a vender -> plan de producción, ventas + stock seguridad - stock inicial, de esta etapa se pasa a las siguientes 3 -> cuanta materia prima, tengo algo ya, se resta a lo que necesito (igual que antes), mano de obra, tengo mi estandar de mano de obra y lo multiplico por la cantidad a producir, ?costos iniciales, fijos, variables? -> obtengo el costo unitario producción (costo variable) -> costo producto vendido variable y administración y ventas (comisiones, logísticos) -> los costos fijos -> llegamos al estado de resultados proyectado.}
+\end{figure}
+
+El Cuadro de Resultados Proyectado, a diferencia del contable, nos permite conocer cuál es la ganancia o 
+pérdida prevista para el volumen de ventas pronosticado. El contable nos muestra lo que realmente sucedió 
+en un período finalizado.
+
+El Cash Flow, surgirá de esta misma información, pero traducida a partir de la política de Pagos y 
+Cobranzas. Es decir, sabemos, por ejemplo, cuánta materia prima requeriremos para el período, y en base a
+nuestra política de pago a proveedores, tendremos el dato de cuál será la erogación monetaria, 
+independientemente de la compra.
+
+Finalmente, con los datos de los nuevos activos (stocks de materias primas, producción en proceso y 
+producto terminado, caja, deudores por venta) y los nuevos pasivos (proveedores, obligaciones a pagar), 
+sumado a las pérdidas o ganancias previstas durante el ejercicio, podremos construir nuestro nuevo balance, 
+que será el Balance Proyectado. De esta manera hemos realizado el Presupuesto Económico (Cuadro de 
+Resultados Proyectado) y el Financiero (Cash Flow Proyectado), ambos resumidos en el Balance Proyectado.
+
+\end{document}
