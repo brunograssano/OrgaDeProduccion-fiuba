@@ -30,7 +30,7 @@ El desperdicio de hilado alcanza al 36%
 |             | Insumo (g) | Costo    |
 |-------------|------------|----------|
 | Hilado      |       1000 |     15,6 |
-|             |     504,69 | 7,873164 |
+|             |     439,28 | 6,852768 |
 | Parafina    |       1000 |       15 |
 |             |          7 |    0,105 |
 | Lubricantes |       1000 |      200 |
@@ -44,14 +44,14 @@ El desperdicio de hilado alcanza al 36%
 | Avios  |             7,15 |
 | Total  |            10,95 |
 
-Total materia prima:		19,382164
+Total materia prima:		18,361768
 
 ### Total
 
-Costo total: 36,682164
+Costo total~: 35,66
 
 ##### Calculo auxiliar
 
-323--------64
+323--------100
 
-504,69------100
+116,28------36
